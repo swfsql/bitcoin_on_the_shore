@@ -179,10 +179,11 @@ E se o cano anterior for alterado? e se a gente mudar ele, mudando a cor da bord
 
 Mas se isso pudesse acontecer, então pra quê o vermelho teria colocado ele alí? E além disso, se aquele cano pode sumir a qualquer hora, então o vermelho nunca poderia ter confiança que ele "realmente" poderia encomendar um cano novo pra ser colocado ali, já que ele não tem muita certeza de que aquele cano realmente está ou continuará ali.
 
-Nesta situação, onde um "passa a bola" pro outro, de acordo com as cores, os canos que já estiverem na estruturam precisam ficar "fixos" na estrutura, sem serem alterados, sem sofrerem mutação. Senão não tem como ninguém considerar que "a bola passou pra ele", pra ele poder "passar" pra outra pessoa depois.
+Nesta situação, onde um "passa a bola" pro outro, de acordo com as cores, os canos que já estiverem na estrutura precisam ficar "fixos" na estrutura, sem serem alterados, sem sofrerem mutação. Senão não tem como ninguém considerar que "a bola passou pra ele", pra ele poder "passar" pra outra pessoa depois.
 
 E além disto, da mesma forma que o cano anterior deve estar fixo para o vermelho se considerar "com a bola", o cano anterior àquele também deve estar fixo, senão os dois próximos enfrentam o mesmo problema.
 
+:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:
 Portanto, nessa brincadeira, é mais interessante para aqueles que querem harmonia que as informações históricas não possam ser mudadas. 
 
 Esta foi a nossa primeira complicação.
@@ -205,8 +206,87 @@ Para verde, ele manda uma encomenda como se a ligação fosse pro azul. Pra [est
 
 E então, digamos que antes de adicionar na própria estrutura, eles compartilham essas encomendas entre eles. E digamos que eles então receberam estas encomendas nesta ordem. O que eles devem fazer? O que o verde deve fazer, por exemplo? Só uma das três encomendas pode ser aceita, pois elas são incompatíveis entre si. O que o roxo deveria fazer? Como eles devem escolher para que eles fiquem coerentes entre eles?
 
-Esta é a nossa segunda complicação.
+:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:
 
+Esta é a nossa segunda complicação. E vamos começar a tentar resolver ela já.
+
+Vamos esquecer o problema de ter que escolher, de alguma maneira, um dos canos novos, por enquanto. Vamos fingir que não tem mais nenhum cano novo sendo encomendado.
+
+O verde, o do meio e o roxo estarão com certeza em harmonia se existir uma ordem para os canos que entraram na estrutura, e se eles todos seguiram a mesma ordem.
+
+Então a gente está encurralando o problema. O próximo cano precisará ter uma ordem. Poderia ser este, que seria o oitavo, e que iria saindo do vermelho e indo pro roxo.
+Claro que ainda temos o problema de "quem irá escolher qual o cano será o próximo, na ordem - ou seja, qual cano que será o oitavo", mas vamos ir resolvendo este problema com calma.
+
+Do jeito que estamos encurralando este problema, a ordem é muito importante. Porque isso quer dizer que os canos entram de um em um. E daí quando um destes canos for escolhido para ser o oitavo, os outros canos "pretendentes" não significam mais nada. Porque queriam entrar exatamente naquele lugar [pois na encomenda de cada cano tinha aquele ingrediente, que é uma foto, mas também é tipo uma posição no mapa, que no caso de todos estes três canos, chegam neste mesmo lugar], e é um lugar, também, que tem uma ponta vermelha. Se este que vai para o roxo for escolhido, por exemplo, primeiro: que aquele lugar já teria sido ocupado, então encomendas diferentes precisariam ser feitas [precisaria de um ingrediente diferente, uma foto diferente que apontaria para um lugar desocupado]; e segundo: que não sobraria mais cano com a ponta de fora vermelha, então usar uma chave vermelha para fazer a borda esquerda da encomenda não adiantaria.
+
+Então se o vermelho quisesse confundir os encanadores, encomendando vários canos incompatíveis entre eles, a partir do momento em que um cano do vermelho conseguir entrar para a estrutura dos encanadores, as outras encomendas do vermelho podem ser ignoradas e jogadas fora pelos encanadores.
+
+Então ter uma ordem nos canos ajuda a gente a encurralar o problema que eles tem que contornar para conseguirem ficar, de algum jeito, em harmonia e é uma defesa contra a tentativa de alguém tentar confundir os encanadores.
+
+Vamos desenvolver melhor essa ideia de ordem.
+Primeiro, quem decide a ordem? ainda não sabemos, mas e quem Não decide a ordem?
+Olha só, o vermelho, o amarelo e o azul talvez nem saibam exatamente o quão grande é a estrutura na imaginação do verde, deste cada do meio e do roxo. O vermelho, por exemplo, sabe fazer aquela foto, um ingrediente que será usado como mapa pelos encanadores - que poderia ser utilizado pelos encanadores para se chegar no quinto cano. Mas isso não quer dizer que o vermelho sabe exatamente como é que está a estrutura, que está na imaginação dos encanadores. O vermelho não precisa saber se o próximo cano será o oitavo, o décimo ou o milésimo, para fazer a encomenda dele.
+Então, a ordem com certeza não está na encomenda. Não é escolhida pelos usuários que encomendam.
+
+Será que a ordem será escolhida pelos encanadores? claro que sim! Imagina uma situação onde só tem o vermelho e o verde, e mais ninguém. Se não é o vermelho que escolhe a ordem, então só sobra o verde para poder escolher. Então os encanadores é que escolhem a ordem, que escolhem qual será o próximo cano que entrará na sua imaginação.
+
+Por enquanto estamos desenhando a ordem como se fosse um número, e desenhando a ordem nos canos. Mas como o cano inteiro veio da encomenda só, e a ordem não veio da encomenda, é melhor separar o desenho da ordem do desenho dos canos.
+
+Então primeiro podemos simplesmente separar estes dois desenhos. E então, precisamos, de alguma forma, indicar de qual ordem que veio cada cano. Podemos enraizar cada cano em um desenho de uma ordem.
+
+Então para os canos que estão na imaginação do verde, as indicações seriam [assim].
+Uma flecha sai da primeira ordem, e vai até o cano que seria o primeiro.
+Ou seja, este cano vai enraizando até chegar numa ordem, que é a primeira.
+Uma felcha sai da segunda ordem, e vai até o cano que seria o segundo.
+Ou seja, de novo, este cano vai enraizando até chegar numa ordem, que é a segunda.
+E assim por diante.
+
+E também, essa ordem é uma nova estrutura, e ela existe na imaginação do verde.
+
+Do ponto de vista do cara do meio, as indicações (ou os enraizamentos) ficariam [assim]. É a mesma coisa, os canos formariam a mesma estrutura que a do verde, e a ordem seriam a mesma. E ele imaginaria a mesma estrutura de ordem também que o verde.
+
+E a mesma coisa pro roxo.
+
+Se a gente tentasse ver o que todo mundo está imaginando ao mesmo tempo, a gente veria algo assim. Daí a gente pode ver que cada um imagina a sua estrutura dos canos, e também a estrutura das ordens.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+
+Agora vamos ver a próxima complicação.
+Digamos que a gente se encontra nessa situação, onde o verde tem a sua estrutura de canos, e chega alguém novo, igual a ele só que sem cano nenhum. E o roxo quer ficar em harmonia com o verde. Como fazer isso?
+
+E daí chega este [aqui], um encanador mentiroso, que tem uma estrutura diferente do verde. Como o roxo lida com essa situação? Como ele vai escolher em qual das duas estruturas ele quer ficar em harmonia?
+Lembrando que o roxo não conhece nem o verde e nem [este do meio], então ele não pode confiar em alguém só porque ele confia naquela pessoa. E se não fosse assim, o sistema não seria descentralizado. Pois daí o roxo teria que ver, em algum lugar específico, para saber quem é que é "o confiável", e daí confiar nessa indicação. Essa indicação que faria a separação do verde dos outros participantes seria algo poderoso e que, talvez, poderia ser manipulado por alguém mal-intencionado, caso essa pessoa tivesse poder para fazer isso.
+E podemos saber também que o roxo não pode confiar em nenhum tipo de maioria. Lembrando que o roxo só consegue enxergar as comunicações que ele recebe, então neste caso ele enxerga uma comunicação do verde, uma deste cara do meio e uma do cinza, que está em harmonia com o cara do meio. Neste caso, os dois do meio são uma maioria em quantidade, porém na verdade, o cara do meio está fazendo duas comunicações com o roxo e está fingindo que o cara cinza existe. Então como qualquer um pode fingir ser vários, não é possível considerar na maioria para nada.
+E também não é possível confiar na quantidade de canos que há nas estruturas, caso você tenha considerado essa possibilidade. O cara do meio poderia simplesmente fazer uma estrutura que tem mais canos que o verde. Poderia ser que todas essas cores que ele utilizou são de pessoas que ele inventou também. Não é possível confiar na quantidade de cores e nem na quantidade de canos.
+Além disso, no começo eu disse que o verde estava dizendo a verdade e o do meio era o mentiroso. Mas porque você deveria confiar em mim? e se Eu estou mentindo, e na verdade o verde é que é o mentiroso? Até agora você provavelmente está pensando em como destacar o verde sobre o do meio, mas e se, na verdade, nem eu e nem você sabemos quem é que é o mentiroso? Os dois poderiam ser mentirosos.. Pode ser que o cara que tem a estrutura de canos "de verdade" ainda não conseguiu se comunicar com o roxo, e a gente nem sabe quem é..
+E finalmente, temos uma complicação sobre a descrição. Como o verde iria descrever a estrutura dele? Poderia o roxo, depois de começar a ficar em harmonia com o verde, parar de se comunciar por um tempo e retomar mais tarde - ou ele teria que começar do zero de novo? E se a estrutura mudar enquanto o roxo ainda está ficando em harmonia com o verde? Essas questões de agora tem menos importância que as anteriores, mas ainda merecem um destaque.
+
+
+E então, essa foi a nossa terceira complicação que, para falar a verdade, está bastante relacionada com a complicação anterior.
+
+
+----------------------------------------------------------------------
+
+Então para retomar, a primeira complicação foi sobre o desejo pela imutabilidade do histórico dos canos; a segunda foi sobre a decisão sobre a divergência da estrutura de canos, e a terceira foi sobre escolha de confiança, digamos assim.
+
+Calma que tem mais..
+
+----------------------------------------------------------------------
 
 
 
@@ -246,19 +326,6 @@ TODO: parei aqui
 
 
 
-----------------------------------------------------------------------
-
-A terceira complicação está relacionada com a anterior, e acontece quando chega uma pessoa nova, com uma estrutura sem cano nenhum, e quer ficar coerente com os outros encanadores. Pode existir um encanador mentiroso que descreve uma estrutura diferente. Como essa pessoa nova poderia decidir qual é a estrutura verdadeira sem poder confiar em ninguém em específico, e inclusive sem poder confiar em nenhuma maioria?*
-
-TODO: vale lembrar que incrementalismo é desejável:
-- não precisar receber numa paulada só
-- não precisar que a estrutura fique "paralizada" enquanto aidna não terminou de receber
-- uma vez sincronizado, não precisar recomeçar do zero caso perca sincronização por um tempo
-
-*Não pode confiar em nenhuma maioria e nem em nenhuma popularidade pq as pessoas só enxergam a comunicação que recebe. Pode ser que várias das pessoas que está se comunicando na verdade é uma só, fingindo ser várias. 
-
-
-
 
 
 TODO: A quarta complicação está relacionada com o limite de imaginação e comunicação que as pessoas tem.
@@ -282,16 +349,13 @@ TODO: relacionado com isso acima, de política monetária, a quantidade das emis
 
 ----------------------------------------------------------------------
 
-A primeira complicação foi sobre imutabilidade histórica,
-e a segunda e a terceira foram sobre sincronização das decisões e de informações.
-
 
 
 
 não precisa do general, mas tipo.. é bom chegar em certos checkpoints..
 
 -> assumindo que as mudanças na estruturas são permitidas apenas em situações especiais,
-   (sendo atômicas)
+   (sendo atômicas) - se bem que tendo um cano por bloco meio que já implica essa ideia..
 -> assumindo que a ordem dos canos significaria que o problema estaria resolvido,
    essa ordem tem que aparecer de alguma forma,
 -> começa botando a ordem explícita nos canos...
@@ -325,6 +389,11 @@ não precisa do general, mas tipo.. é bom chegar em certos checkpoints..
      o ganho de "força" da imutabilidade sobe exponencialmente com a antiguidade
 -> curiosidade: 
    lista de canos (em ordem) enraizados numa pérola;
+-> curiosidade:
+   o negócio da "pérola" (hash de algo anterior) tambéma contece naquela foto usada, nas encomendas, pra localizar o cano anterior. É tipo o mesmo uso de jeitões de informação. É tipo igual.
+   Ou seja, o encadeamento de transações também é uma forma de "enraizar" (conter algum hash). Todo cano posterior enraíza o cano anterior - todo cano anterior estará enraizado no posterior.
+   =: toda pérola posterior enraíza o anterior - toda anterior estará enraizada na posterior.
+   =: toda pérola da rodada enraíza os canos da rodada - todos os canos da rodada estarão enraizados na pérola da rodada.
 
 
 explicar o que é uma pérola
@@ -373,5 +442,4 @@ obs
 
 
 --------------------------------------------------
-
 
