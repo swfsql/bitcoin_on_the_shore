@@ -210,29 +210,87 @@ E então, digamos que antes de adicionar na própria estrutura, eles compartilha
 
 Esta é a nossa segunda complicação. E vamos começar a tentar resolver ela já.
 
-Vamos esquecer o problema de ter que escolher, de alguma maneira, um dos canos novos, por enquanto. Vamos fingir que não tem mais nenhum cano novo sendo encomendado.
+Por enquanto, vamos esquecer o problema de ter que escolher, de alguma maneira, um dos canos novos. Vamos fingir que não tem mais nenhum cano novo sendo encomendado.
 
-O verde, o do meio e o roxo estarão com certeza em harmonia se existir uma ordem para os canos que entraram na estrutura, e se eles todos seguiram a mesma ordem.
+O verde, o do meio e o roxo estarão com certeza em harmonia, presta atenção:, se existir uma ordem para os canos que entraram na estrutura, e se eles todos seguiram a mesma ordem.
 
-Então a gente está encurralando o problema. O próximo cano precisará ter uma ordem. Poderia ser este, que seria o oitavo, e que iria saindo do vermelho e indo pro roxo.
+Então a gente está encurralando o problema. Uma maneira de sumir com o problema é considerar que todos os canos tem uma ordem, inclusive o próximo. Poderia ser este, que seria o oitavo, e que iria saindo do vermelho e indo pro roxo.
 Claro que ainda temos o problema de "quem irá escolher qual o cano será o próximo, na ordem - ou seja, qual cano que será o oitavo", mas vamos ir resolvendo este problema com calma.
 
-Do jeito que estamos encurralando este problema, a ordem é muito importante. Porque isso quer dizer que os canos entram de um em um. E daí quando um destes canos for escolhido para ser o oitavo, os outros canos "pretendentes" não significam mais nada. Porque queriam entrar exatamente naquele lugar [pois na encomenda de cada cano tinha aquele ingrediente, que é uma foto, mas também é tipo uma posição no mapa, que no caso de todos estes três canos, chegam neste mesmo lugar], e é um lugar, também, que tem uma ponta vermelha. Se este que vai para o roxo for escolhido, por exemplo, primeiro: que aquele lugar já teria sido ocupado, então encomendas diferentes precisariam ser feitas [precisaria de um ingrediente diferente, uma foto diferente que apontaria para um lugar desocupado]; e segundo: que não sobraria mais cano com a ponta de fora vermelha, então usar uma chave vermelha para fazer a borda esquerda da encomenda não adiantaria.
+Do jeito que estamos encurralando este problema, a ordem é muito importante. Porque isso também quer dizer que os canos entram de um em um. E daí quando um destes canos for escolhido para ser o oitavo, os outros canos que foram "pretendentes" a serem o oitavo não significam mais nada - isso  porque queriam entrar exatamente naquele lugar [pois na encomenda de cada cano tinha aquele ingrediente, que é uma foto, mas também é tipo uma posição no mapa, que no caso de todos estes três canos, chegam neste mesmo lugar], e é um lugar, também, que tem uma ponta vermelha - e este lugar seria ocupado pelo oitavo cano. Se este que vai para o roxo for escolhido, por exemplo, primeiro: que aquele lugar já teria sido ocupado, então encomendas diferentes precisariam ser feitas [precisaria de um ingrediente diferente, uma foto diferente que apontaria para um lugar desocupado]; e segundo: que não sobraria mais cano com a ponta de fora vermelha, então usar uma chave vermelha para fazer a borda esquerda da encomenda não adiantaria.
 
-Então se o vermelho quisesse confundir os encanadores, encomendando vários canos incompatíveis entre eles, a partir do momento em que um cano do vermelho conseguir entrar para a estrutura dos encanadores, as outras encomendas do vermelho podem ser ignoradas e jogadas fora pelos encanadores.
+Então se o vermelho quisesse confundir os encanadores (encomendando vários canos incompatíveis entre eles) a partir do momento em que um cano do vermelho conseguir entrar para a estrutura dos encanadores, as outras encomendas do vermelho podem ser ignoradas e jogadas fora pelos encanadores.
 
-Então ter uma ordem nos canos ajuda a gente a encurralar o problema que eles tem que contornar para conseguirem ficar, de algum jeito, em harmonia e é uma defesa contra a tentativa de alguém tentar confundir os encanadores.
+Então resumindo, ter uma ordem nos canos é uma ajuda pra conseguirem ficar em harmonia, e é também uma ajuda contra aqueles que quiserem tentar confundir os encanadores.
 
-Vamos desenvolver melhor essa ideia de ordem.
-Primeiro, quem decide a ordem? ainda não sabemos, mas e quem Não decide a ordem?
-Olha só, o vermelho, o amarelo e o azul talvez nem saibam exatamente o quão grande é a estrutura na imaginação do verde, deste cada do meio e do roxo. O vermelho, por exemplo, sabe fazer aquela foto, um ingrediente que será usado como mapa pelos encanadores - que poderia ser utilizado pelos encanadores para se chegar no quinto cano. Mas isso não quer dizer que o vermelho sabe exatamente como é que está a estrutura, que está na imaginação dos encanadores. O vermelho não precisa saber se o próximo cano será o oitavo, o décimo ou o milésimo, para fazer a encomenda dele.
-Então, a ordem com certeza não está na encomenda. Não é escolhida pelos usuários que encomendam.
+Vamos tentar desenvolver melhor essa ideia de ordem..
+Primeiro, quem decide a ordem? ainda não sabemos. E por outro lado: mas e quem [com certeza] Não decide a ordem?
+Olha só, o vermelho, o amarelo e o azul talvez nem saibam exatamente o quão grande é a estrutura na imaginação do verde, deste cara do meio e do roxo. O vermelho, por exemplo, sabe fazer aquela foto, um ingrediente que será usado como mapa pelos encanadores - que poderia ser utilizado pelos encanadores para se chegar no quinto cano. Mas isso não quer dizer que o vermelho sabe exatamente como é que está a estrutura, que está na imaginação dos encanadores. O vermelho não precisa saber se o próximo cano será o oitavo, o décimo ou o milésimo, para fazer a encomenda dele.
+Então, a ordem com certeza não está dentro da encomenda. Não é escolhida pelos usuários que encomendam.
 
-Será que a ordem será escolhida pelos encanadores? claro que sim! Imagina uma situação onde só tem o vermelho e o verde, e mais ninguém. Se não é o vermelho que escolhe a ordem, então só sobra o verde para poder escolher. Então os encanadores é que escolhem a ordem, que escolhem qual será o próximo cano que entrará na sua imaginação.
+Será que a ordem será escolhida pelos encanadores? sim! só sobrou eles! Imagina uma situação onde só tem o vermelho e o verde, e mais ninguém. Se não é o vermelho que escolhe a ordem, então só sobra o verde para poder escolher. Então os encanadores é que escolhem a ordem, que escolhem qual será o próximo cano que entrará na sua imaginação.
 
-Por enquanto estamos desenhando a ordem como se fosse um número, e desenhando a ordem nos canos. Mas como o cano inteiro veio da encomenda só, e a ordem não veio da encomenda, é melhor separar o desenho da ordem do desenho dos canos.
+Por enquanto estamos desenhando a ordem como se fosse um número, e esse número está sendo desenhado nos canos mesmo. Mas como o cano "meio que" é a própria encomenda, e já que a ordem não está na encomenda, é melhor separar esse números (da ordem) dos desenhos dos cano.
 
-Então primeiro podemos simplesmente separar estes dois desenhos. E então, precisamos, de alguma forma, indicar de qual ordem que veio cada cano. Podemos enraizar cada cano em um desenho de uma ordem.
+Então primeiro podemos simplesmente separar estes dois desenhos: o dos canos e o das ordens. E então, precisamos, de alguma forma, indicar a relação dos canos com as ordens. Uma forma de ligar as coisas.
+
+Antes nós já vimos esta imagem. Agora eu vou apenas relembrar algo que já foi dito, mas também completar uma coisa que faltou. Pois depois vamos reaproveitar a ideia que vamos ver.
+
+Se você não lembra muito bem sobre o que ela era, era na parte que estávamos falando dos ingredientes que fazem um cano.
+Eu devia ter dito isto antes, mas enfim: os ingredientes de um cano, juntinhos em um envelope, "é" o próprio cano. Por outro lado, e no mesmo sentido, um cano "é" o seu envelope com os seus ingredientes. Falar de um é falar do outro.
+
+Neste exemplo, estamos fazendo um cano novo, do azul para o verde. E um dos ingredientes dentro de seu envelope é uma foto, e esta foto foi tirada sobre o cano anterior, ou seja, sobre os ingredientes do cano anterior [marcado de cinza]. 
+
+Essa foto (dos ingredientes do cano anterior) era usada pelo encanador, de certa forma, pra "localizar" este cano anterior, como se a foto fosse um tipo de coordenada de um mapa.
+Mas além disto, esta foto também é uma forma do cano novo "se atrelar" àquele cano anterior, e isso é uma proteção para a pessoa que encomendou aquele cano.
+
+Pois imagine esta situação, onde o verde faz uma réplica do cano novo, e tenta enfiar a réplica em um outro lugar. Poderia ser ruim pro azul, pois talvez ele não quizesse isso. Porém a réplica continuaria atrelada àquele mesmo cano anterior, por isso outros encanadores poderiam ver que tem algo de errado com a réplica, se ela estivesse num lugar onde não deveria.
+
+Neste caso, o cano anterior do cano novo de cima era do vermelho, e já pro cano novo de baixo, o cano anterior era do amarelo. Mas mesmo que ambos os canos anteriores fossem do vermelho, e mesmo que ambos são direcionados ao azul, as fotos dos novos continuariam apontando pro de cima.
+
+O cano de cima (pintado de vermelho) tem os seus próprios ingredientes, e são diferentes do cano de baixo (pintado de laranja, mas também é do vermelho). Mesmo que ambos sejam do vermelho e ambos tem como destinatário o azul.
+
+Relembrando.. por terem o mesmo destinatário, o azul, tem [este] mesmo ingrediente (que é a borda do lado direito do cano). E por ambos serem do vermelho, ambos tem este mesmo ingrediente também (a mesma chave sem sombra). Porém o ingrediente que é uma foto dos ingredientes do cano anterior, daí este ingrediente é diferente entre eles. O cano anterior do de cima é um cano ligado direto no cano de base do encanador, e pro caso do cano de baixo, é um que era do azul.
+
+Qualquer diferença nos ingredientes é o suficiente para fazer a foto deles também ser diferente, e então a foto seria diferente. Esta foto seria um ingrediente dentro do próximo cano, então os próximos canos seriam diferentes entre si - teriam ingredientes diferentes no final das contas.
+
+Estas fotos diferentes, de fato, cada uma estaria relacionada com localizações diferentes dos canos. Mas como o cano novo tem como ingrediente uma única foto, ambos o cano e a sua réplica iriam querer estar atrelados ao mesmo cano anterior.
+
+E desta forma, podemos ver que os canos não estão ligados apenas por suas bordas. Cada cano tem uma foto dos ingredientes (intactos) do cano anterior, que por sua vez tem uma foto dos ingredientes (intactos) do cano anterior, e assim por diante.
+Uma curiosidade é que, para os primeiros canos, aqueles que não tem nenhum anterior, precisar da "foto do anterior" nem faria sentido. Então é um espaço de ingrediente livre para colocarem o que quiser, que não serve para nada em específico.
+O primeiro cano criado na história da humanidade, feito pelo primeiro encanador e também criador do próprio Bitcoin, o Satoshi Nakamoto, no lugar desta foto contém uma frase de texto que é uma manchete de um jornal "The Times", de 03/Jan/2009, e a manchete traduzida é "Chanceler à beira do segundo resgate aos bancos". Claro que é uma forma de mostrar que aquela encomenda foi feita depois daquela data, mas também é quase um desenho gravado na parede de uma caverna, uma forma artística de representar críticas ao sistema bancário e da relação que os governos têm com os bancos. Essa frase faz parte da estrutura, do sistema, e está na própria incepção dele.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+Então voltando.. TODO
+-> considerar fazer o cano se strelar a alguma ordem.
+ -> não dá pq n tá no ingrediente, então a ordem tem que se atrelar ao cano
+ -> mais tarde, falar que cada ordem se atrela a um conjunto de cano (markle tree).
+ -> mas é bom falar que esta "atrelagem" não tem relação com "localização". Mas sim com "fixação". (imutabilidade)
+ -> porém.. é bom lembrar que realmente há um link direto entre a ordem e um bando de canos, pois
+ a ordem é o header, e o conjunto de canos é o body de uma mesma estrutura (bloco)...
+ hum... tem que ver isso, até agora isso não tá desenhado em lugar nenhum kkk
+
+-> fazer a ordem estar atrelada ao cano
+-> coisa de se "atrelar"
+
+
+Podemos enraizar cada cano em um desenho de uma ordem.
 
 Então para os canos que estão na imaginação do verde, as indicações seriam [assim].
 Uma flecha sai da primeira ordem, e vai até o cano que seria o primeiro.
@@ -442,4 +500,5 @@ obs
 
 
 --------------------------------------------------
+
 
