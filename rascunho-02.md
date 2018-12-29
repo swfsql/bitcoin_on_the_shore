@@ -1,14 +1,41 @@
 
-
-Até aqui nós vimos algumas coisas que tem relação "meio técnica" com o Bitcoin.
-Agora vamos ver, por alguns minutos, sobre
+------------------------------
 
 
+Agora eu vou voltar no primeiro ingrediente pra entendermos ele melhor.
+
+Uma noção importante que não falei ainda: 
+os ingredientes de um cano, juntinhos em um envelope, "é" o próprio cano. Por outro lado, e no mesmo sentido, um cano "é" o seu envelope com os seus ingredientes. Falar de um é falar do outro.
+
+Neste exemplo, estamos fazendo um cano novo, do azul para o verde. E um dos ingredientes dentro de seu envelope é uma foto, e esta foto foi tirada sobre o cano anterior, ou seja, sobre os ingredientes do cano anterior [marcado de cinza]. 
+
+Essa foto (dos ingredientes do cano anterior) era usada pelo encanador, de certa forma, pra "localizar" este cano anterior, como se a foto fosse um tipo de coordenada de um mapa.
+Mas além disto, esta foto também é uma forma do cano novo "se atrelar" àquele cano anterior, e isso é uma proteção para a pessoa que encomendou aquele cano.
+
+Pois imagine esta situação, onde o verde faz uma réplica do cano novo, e tenta enfiar a réplica em um outro lugar. Poderia ser ruim pro azul, pois talvez ele não quizesse isso. Porém a réplica continuaria atrelada àquele mesmo cano anterior, por isso outros encanadores poderiam ver que tem algo de errado com a réplica, se ela estivesse num lugar onde não deveria.
+
+Neste caso, o cano anterior do cano novo de cima era do vermelho, e já pro cano novo de baixo, o cano anterior era do amarelo. Mas mesmo que ambos os canos anteriores fossem do vermelho, e mesmo que ambos são direcionados ao azul, as fotos dos novos continuariam apontando pro de cima.
+
+O cano de cima (pintado de vermelho) tem os seus próprios ingredientes, e são diferentes do cano de baixo (pintado de laranja, mas também é do vermelho). Mesmo que ambos sejam do vermelho e ambos tem como destinatário o azul.
+
+Relembrando.. por terem o mesmo destinatário, o azul, tem [este] mesmo ingrediente (que é a borda do lado direito do cano). E por ambos serem do vermelho, ambos tem este mesmo ingrediente também (a mesma chave sem sombra). Porém o ingrediente que é uma foto dos ingredientes do cano anterior, daí este ingrediente é diferente entre eles. O cano anterior do de cima é um cano ligado direto no cano de base do encanador, e pro caso do cano de baixo, é um que era do azul.
+
+Qualquer diferença nos ingredientes é o suficiente para fazer a foto deles também ser diferente, e então a foto seria diferente. Esta foto seria um ingrediente dentro do próximo cano, então os próximos canos seriam diferentes entre si - teriam ingredientes diferentes no final das contas.
+
+Estas fotos diferentes, de fato, cada uma estaria relacionada com localizações diferentes dos canos. Mas como o cano novo tem como ingrediente uma única foto, ambos o cano e a sua réplica iriam querer estar atrelados ao mesmo cano anterior.
+
+E desta forma, podemos ver que os canos não estão ligados apenas por suas bordas. Cada cano tem uma foto dos ingredientes (intactos) do cano anterior, que por sua vez tem uma foto dos ingredientes (intactos) do cano anterior, e assim por diante.
+Uma curiosidade é que, para os primeiros canos, aqueles que não tem nenhum anterior, precisar da "foto do anterior" nem faria sentido. Então é um espaço de ingrediente livre para colocarem o que quiser, que não serve para nada em específico.
 
 
 
+Continuando na curiosidade,
+
+Digamos no cano "gênese", no caso do primeiro cano criado na história da humanidade, feito pelo primeiro encanador e também criador do próprio Bitcoin (que foi o Satoshi Nakamoto), no lugar desta foto, já que ele poderia colocar o que quiser, ele colocou uma frase de texto que é uma manchete de um jornal "The Times", de 03/Jan/2009 (quaaase primeiro de Janeiro de 2009), e a manchete traduzida é "Chanceler à beira do segundo resgate aos bancos" - que era uma reportagem sobre o governo injetando dinheiro em algum banco que estava "passando aí.. por problemas financeiros". Claro que isso é uma forma de demostrar que aquele cano foi feito DEPOIS daquela data da reportagem - ou seja, ele marcou um ponto, uma data, inicial - mas também é uma forma bem artística de gravura. Se você forçar um pouquinho, é quase como "rabiscar uma parede de uma caverna", e ele acabou gravando esta frase que representa as críticas e os motivos pelos quais aquele sistema nasceu.
 
 
+Já que saímos um pouco dessa parte técnica, agora eu vou continuar nesse embalo.
+E vamos falar um pouco sobre..
 
 ----------------------------------------------------------------------
 # o contexto político em que estamos
@@ -66,13 +93,6 @@ Então finalmente chegamos à palavra
 
 
 
-
-
-
-
-
-
-
 ----------------------------------------------------------------------
 ## descentralização
 
@@ -82,15 +102,6 @@ Também significa que não há uma autoridade central. E o que seria uma autorid
 Pense em uma situação extrema: digamos que o grupinho fique doido e começe a fazer coisas com a própria moeda que.. não deveria fazer. Como se estivessem realmente tentando, simplesmente, prejudicar os usuários da moeda. Se esse grupinho na verdade NÃO for uma autoridade central, então, os usuários seriam Pouco afetados - o impacto sobre eles seria pequeno - ou não teria impacto nenhum. (Compreender o sentido de autoridade central desta maneira nao é ruim.)
 
 Agora sabendo deste contexto, podemos prosseguir com a apresentação aqui..
-
-
-
-
-
-
-
-
-
 
 
 
@@ -112,17 +123,6 @@ Assim, as únicas coisas que realmente existem nessa história são só as pesso
 Mas nessas coisas que estamos vendo aqui, e com algumas considerações, tudo é imaginário e abstrato - nada é real, apenas As Pessoas e o Canal de Comunicação entre elas (que é usado quando elas passam descrições pra lá e pra cá). 
 
 Eu sei que não é comum enxergar as coisas dessa forma, mas vai ser importante daqui pra frente. Mas eu não vou deixar as coisas, toda hora, em balõezinhos só pra mostrar que são coisas abstratas. A gente agora já sabe disso, e já tá bom. 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -155,19 +155,6 @@ Então, uma vez que não estamos acostumados com isso, fica a pergunta..
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----------------------------------------------------------------------
 ## Em busca da harmonia
 
@@ -187,9 +174,6 @@ E além disto, da mesma forma que o cano anterior deve estar fixo para o vermelh
 Portanto, nessa brincadeira, é mais interessante para aqueles que querem harmonia que as informações históricas não possam ser mudadas. 
 
 Esta foi a nossa primeira complicação.
-
-
-
 
 
 
@@ -232,33 +216,19 @@ Será que a ordem será escolhida pelos encanadores? sim! só sobrou eles! Imagi
 
 Por enquanto estamos desenhando a ordem como se fosse um número, e esse número está sendo desenhado nos canos mesmo. Mas como o cano "meio que" é a própria encomenda, e já que a ordem não está na encomenda, é melhor separar esse números (da ordem) dos desenhos dos cano.
 
-Então primeiro podemos simplesmente separar estes dois desenhos: o dos canos e o das ordens. E então, precisamos, de alguma forma, indicar a relação dos canos com as ordens. Uma forma de ligar as coisas.
+Então primeiro podemos simplesmente separar estes dois desenhos: o dos canos e o das ordens. Mas naquela estrutura, na imaginação dos encanadores, não existe uma ordem sem um cano e um cano sem uma ordem. Então podemos colocar uma réplica dos canos junto às ordens também, mesmo que eles sejam duas coisas separadas.
 
-Antes nós já vimos esta imagem. Agora eu vou apenas relembrar algo que já foi dito, mas também completar uma coisa que faltou. Pois depois vamos reaproveitar a ideia que vamos ver.
+Mas não se engane, pois não é pq um cano está ao lado do outro que eles tem qualquer ligação entre eles. Isso depende daquele primeiro ingrediente no envelope, que é a foto do envelope realmente anterior à ele.
+No desenho de cima fica fácil ver, pois este cano "da foto" fica realmente aparece à esquerda do cano, tanto é que as bordas entre eles ligam um com o outro.
+Mas no desenho de baixo não, se fosse pra gente representar uma "ligação" entre estes canos segundo as fotos, a gente precisaria fazer estas setas.
 
-Se você não lembra muito bem sobre o que ela era, era na parte que estávamos falando dos ingredientes que fazem um cano.
-Eu devia ter dito isto antes, mas enfim: os ingredientes de um cano, juntinhos em um envelope, "é" o próprio cano. Por outro lado, e no mesmo sentido, um cano "é" o seu envelope com os seus ingredientes. Falar de um é falar do outro.
+A gente pode deixar os canos mais coloridos de acordo com a ordem deles, que aí fica mais fácil de ver também.
 
-Neste exemplo, estamos fazendo um cano novo, do azul para o verde. E um dos ingredientes dentro de seu envelope é uma foto, e esta foto foi tirada sobre o cano anterior, ou seja, sobre os ingredientes do cano anterior [marcado de cinza]. 
+[comparar entre o desenho de cima e o de baixo, tipo "ah aqui (em baixo) [este] cano é (em cima) [este aqui], e aí o próximo (em cima) não esté este próximo (em baixo), mas sim o terceiro (em baixo), que tem a borda esquerda azul e a direita amarela. Daí blablabla"]
 
-Essa foto (dos ingredientes do cano anterior) era usada pelo encanador, de certa forma, pra "localizar" este cano anterior, como se a foto fosse um tipo de coordenada de um mapa.
-Mas além disto, esta foto também é uma forma do cano novo "se atrelar" àquele cano anterior, e isso é uma proteção para a pessoa que encomendou aquele cano.
+Ou seja, agora sim, se você tiver só o desenho de cima, você consegue refazer o de baixo; e se você tiver só o desenho de baixo, você consegue refazer o desenho de cima. Os dois desenhos representam a mesma coisa, só que um dá ênfase pras ligações das bordas, e outro dá ênfase à ordem que os canos foram entrando na estrutura.
 
-Pois imagine esta situação, onde o verde faz uma réplica do cano novo, e tenta enfiar a réplica em um outro lugar. Poderia ser ruim pro azul, pois talvez ele não quizesse isso. Porém a réplica continuaria atrelada àquele mesmo cano anterior, por isso outros encanadores poderiam ver que tem algo de errado com a réplica, se ela estivesse num lugar onde não deveria.
-
-Neste caso, o cano anterior do cano novo de cima era do vermelho, e já pro cano novo de baixo, o cano anterior era do amarelo. Mas mesmo que ambos os canos anteriores fossem do vermelho, e mesmo que ambos são direcionados ao azul, as fotos dos novos continuariam apontando pro de cima.
-
-O cano de cima (pintado de vermelho) tem os seus próprios ingredientes, e são diferentes do cano de baixo (pintado de laranja, mas também é do vermelho). Mesmo que ambos sejam do vermelho e ambos tem como destinatário o azul.
-
-Relembrando.. por terem o mesmo destinatário, o azul, tem [este] mesmo ingrediente (que é a borda do lado direito do cano). E por ambos serem do vermelho, ambos tem este mesmo ingrediente também (a mesma chave sem sombra). Porém o ingrediente que é uma foto dos ingredientes do cano anterior, daí este ingrediente é diferente entre eles. O cano anterior do de cima é um cano ligado direto no cano de base do encanador, e pro caso do cano de baixo, é um que era do azul.
-
-Qualquer diferença nos ingredientes é o suficiente para fazer a foto deles também ser diferente, e então a foto seria diferente. Esta foto seria um ingrediente dentro do próximo cano, então os próximos canos seriam diferentes entre si - teriam ingredientes diferentes no final das contas.
-
-Estas fotos diferentes, de fato, cada uma estaria relacionada com localizações diferentes dos canos. Mas como o cano novo tem como ingrediente uma única foto, ambos o cano e a sua réplica iriam querer estar atrelados ao mesmo cano anterior.
-
-E desta forma, podemos ver que os canos não estão ligados apenas por suas bordas. Cada cano tem uma foto dos ingredientes (intactos) do cano anterior, que por sua vez tem uma foto dos ingredientes (intactos) do cano anterior, e assim por diante.
-Uma curiosidade é que, para os primeiros canos, aqueles que não tem nenhum anterior, precisar da "foto do anterior" nem faria sentido. Então é um espaço de ingrediente livre para colocarem o que quiser, que não serve para nada em específico.
-O primeiro cano criado na história da humanidade, feito pelo primeiro encanador e também criador do próprio Bitcoin, o Satoshi Nakamoto, no lugar desta foto contém uma frase de texto que é uma manchete de um jornal "The Times", de 03/Jan/2009, e a manchete traduzida é "Chanceler à beira do segundo resgate aos bancos". Claro que é uma forma de mostrar que aquela encomenda foi feita depois daquela data, mas também é quase um desenho gravado na parede de uma caverna, uma forma artística de representar críticas ao sistema bancário e da relação que os governos têm com os bancos. Essa frase faz parte da estrutura, do sistema, e está na própria incepção dele.
+Antes de acabar essa parte, é bom lembrar que essa coisa de ordem existe na imaginação de cada encanador. Então a representação mais correta seria uma trilha de bolinha de ordem pra cada encanador.
 
 
 
@@ -275,9 +245,40 @@ O primeiro cano criado na história da humanidade, feito pelo primeiro encanador
 
 
 
----------------------------------------------------------------------------------
 
-Então voltando.. TODO
+
+
+TODO: Parei aqui.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> a foto dentro da "ordem" só entra na questão da imutabilidade.
+-> a questão da markle tree.. isso é mais pra deixar os canos (body) imutáveis, essa questão vem depois..
+
+
+
 -> considerar fazer o cano se strelar a alguma ordem.
  -> não dá pq n tá no ingrediente, então a ordem tem que se atrelar ao cano
  -> mais tarde, falar que cada ordem se atrela a um conjunto de cano (markle tree).
