@@ -196,16 +196,17 @@ Esta é a nossa segunda complicação. E vamos começar a tentar resolver ela j�
 
 Por enquanto, vamos esquecer o problema de ter que escolher, de alguma maneira, um dos canos novos. Vamos fingir que não tem mais nenhum cano novo sendo encomendado.
 
-O verde, o do meio e o roxo estarão com certeza em harmonia, presta atenção:, se existir uma ordem para os canos que entraram na estrutura, e se eles todos seguiram a mesma ordem.
+O verde, o do meio e o roxo estarão com certeza em harmonia se acontecer: 1) se existir uma ordem para os canos que entraram na estrutura, e 2) se todo mundo seguiram a mesma ordem.
 
-Então a gente está encurralando o problema. Uma maneira de sumir com o problema é considerar que todos os canos tem uma ordem, inclusive o próximo. Poderia ser este, que seria o oitavo, e que iria saindo do vermelho e indo pro roxo.
-Claro que ainda temos o problema de "quem irá escolher qual o cano será o próximo, na ordem - ou seja, qual cano que será o oitavo", mas vamos ir resolvendo este problema com calma.
+Então a gente está encurralando o problema. Uma maneira de sumir com o problema é considerar que todos os canos tem uma ordem, inclusive o próximo. Poderia ser [este], que seria o oitavo, e que iria saindo do vermelho e indo pro roxo.
+Claro que ainda temos o problema de "quem irá escolher qual o cano será o próximo, na ordem" - ou seja, "qual cano que será o oitavo" - mas vamos ir resolvendo este problema com calma.
 
-Do jeito que estamos encurralando este problema, a ordem é muito importante. Porque isso também quer dizer que os canos entram de um em um. E daí quando um destes canos for escolhido para ser o oitavo, os outros canos que foram "pretendentes" a serem o oitavo não significam mais nada - isso  porque queriam entrar exatamente naquele lugar [pois na encomenda de cada cano tinha aquele ingrediente, que é uma foto, mas também é tipo uma posição no mapa, que no caso de todos estes três canos, chegam neste mesmo lugar], e é um lugar, também, que tem uma ponta vermelha - e este lugar seria ocupado pelo oitavo cano. Se este que vai para o roxo for escolhido, por exemplo, primeiro: que aquele lugar já teria sido ocupado, então encomendas diferentes precisariam ser feitas [precisaria de um ingrediente diferente, uma foto diferente que apontaria para um lugar desocupado]; e segundo: que não sobraria mais cano com a ponta de fora vermelha, então usar uma chave vermelha para fazer a borda esquerda da encomenda não adiantaria.
+Do jeito que estamos encurralando este problema, a ordem é muito importante. Porque isso também quer dizer que os canos entram de um em um. E daí quando um destes canos for escolhido para ser o oitavo, os outros canos que eram "pretendentes" a serem o oitavo não significam mais nada - isso  porque queriam entrar exatamente naquele lugar [pois na encomenda de cada cano tinha aquele ingrediente, que é uma foto, mas também é tipo uma posição no mapa, que no caso de todos estes três canos, chegam neste mesmo lugar], e é um lugar, também, que tem uma ponta vermelha - e este lugar seria ocupado pelo oitavo cano.
+Se este que vai para o roxo for escolhido, por exemplo, então 1) que aquele lugar já teria sido ocupado, então encomendas diferentes precisariam ser feitas [precisaria de um ingrediente diferente, uma foto diferente que apontaria para um lugar desocupado]; e 2) que não sobraria mais cano com a ponta de fora vermelha, então usar uma chave vermelha para fazer a borda esquerda da encomenda não adiantaria.
 
 Então se o vermelho quisesse confundir os encanadores (encomendando vários canos incompatíveis entre eles) a partir do momento em que um cano do vermelho conseguir entrar para a estrutura dos encanadores, as outras encomendas do vermelho podem ser ignoradas e jogadas fora pelos encanadores.
 
-Então resumindo, ter uma ordem nos canos é uma ajuda pra conseguirem ficar em harmonia, e é também uma ajuda contra aqueles que quiserem tentar confundir os encanadores.
+Então resumindo, ter uma ordem nos canos é uma ajuda pra conseguirem ficar em harmonia, e é também uma ajuda contra aqueles que quiserem tentar confundir os encanadores - dependendo do tipo de tentativa.
 
 Vamos tentar desenvolver melhor essa ideia de ordem..
 Primeiro, quem decide a ordem? ainda não sabemos. E por outro lado: mas e quem [com certeza] Não decide a ordem?
@@ -228,148 +229,42 @@ A gente pode deixar os canos mais coloridos de acordo com a ordem deles, que aí
 
 Ou seja, agora sim, se você tiver só o desenho de cima, você consegue refazer o de baixo; e se você tiver só o desenho de baixo, você consegue refazer o desenho de cima. Os dois desenhos representam a mesma coisa, só que um dá ênfase pras ligações das bordas, e outro dá ênfase à ordem que os canos foram entrando na estrutura.
 
-Antes de acabar essa parte, é bom lembrar que essa coisa de ordem existe na imaginação de cada encanador. Então a representação mais correta seria uma trilha de bolinha de ordem pra cada encanador.
+Só, antes de acabar esta parte das bolinhas.. é bom saber que elas existem na imaginação de cada encanador. Então a representação mais correta seria uma trilha de bolinha de ordem pra cada encanador.
 
 
 
 
+---------------------------------------------------------
 
+Então beleza, a gente tinha um problema inicial, que era de como os encanadores ficariam em harmonia, considerando que há canos que são incompatíveis, no sentido de que se um entrar então o outro não pode entrar; E começamos a cercar o problema colocando a noção de ordem na entrada dos canos; E sabemos que essa ordem não tem nada a ver com as pessoas que fazem as encomendas, e sim com os encanadores. E finalmente, sabemos também que existe essa estrutura das bolinhas, que representa a ordem.
+Porém esta complicação continua.. pois ainda não sabemos exatamente como um próximo cano seria escolhido, como essa escolha é feita (ou como ela seria aceita), e tal. A gente só transformou a complicação inicial em uma outra complicação mais específica - o que já é alguma coisa.
 
+Então continuamos com essa complicação, e com a anterior, mais antiga, que era sobre evitar mudança na história da estrutura (pois se um cano antigo muda "do nada", os canos depois dele (o que liga na borda dele, e os próximos) passariam a ficar errados). Continuamos com estas duas complicações.
 
-
-
-
-
-
-
-
-
-
-
-
-
-TODO: Parei aqui.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--> a foto dentro da "ordem" só entra na questão da imutabilidade.
--> a questão da markle tree.. isso é mais pra deixar os canos (body) imutáveis, essa questão vem depois..
-
-
-
--> considerar fazer o cano se strelar a alguma ordem.
- -> não dá pq n tá no ingrediente, então a ordem tem que se atrelar ao cano
- -> mais tarde, falar que cada ordem se atrela a um conjunto de cano (markle tree).
- -> mas é bom falar que esta "atrelagem" não tem relação com "localização". Mas sim com "fixação". (imutabilidade)
- -> porém.. é bom lembrar que realmente há um link direto entre a ordem e um bando de canos, pois
- a ordem é o header, e o conjunto de canos é o body de uma mesma estrutura (bloco)...
- hum... tem que ver isso, até agora isso não tá desenhado em lugar nenhum kkk
-
--> fazer a ordem estar atrelada ao cano
--> coisa de se "atrelar"
-
-
-Podemos enraizar cada cano em um desenho de uma ordem.
-
-Então para os canos que estão na imaginação do verde, as indicações seriam [assim].
-Uma flecha sai da primeira ordem, e vai até o cano que seria o primeiro.
-Ou seja, este cano vai enraizando até chegar numa ordem, que é a primeira.
-Uma felcha sai da segunda ordem, e vai até o cano que seria o segundo.
-Ou seja, de novo, este cano vai enraizando até chegar numa ordem, que é a segunda.
-E assim por diante.
-
-E também, essa ordem é uma nova estrutura, e ela existe na imaginação do verde.
-
-Do ponto de vista do cara do meio, as indicações (ou os enraizamentos) ficariam [assim]. É a mesma coisa, os canos formariam a mesma estrutura que a do verde, e a ordem seriam a mesma. E ele imaginaria a mesma estrutura de ordem também que o verde.
-
-E a mesma coisa pro roxo.
-
-Se a gente tentasse ver o que todo mundo está imaginando ao mesmo tempo, a gente veria algo assim. Daí a gente pode ver que cada um imagina a sua estrutura dos canos, e também a estrutura das ordens.
-
-
-
-
-
-
-
-
-
-
-
-
+Temos essas duas, e agora eu vou falar sobre uma próxima, uma terceira complicação.
 
 
 
 ----------------------------------------------------------------------
 
 
-Agora vamos ver a próxima complicação.
-Digamos que a gente se encontra nessa situação, onde o verde tem a sua estrutura de canos, e chega alguém novo, igual a ele só que sem cano nenhum. E o roxo quer ficar em harmonia com o verde. Como fazer isso?
+Digamos que a gente se encontra nessa situação, onde o verde tem a sua estrutura de canos, e chega alguém novo, igual a ele só que sem cano nenhum. E o roxo quer ficar em harmonia com o verde. Como que ele poderia conseguir fazer isso?
 
-E daí chega este [aqui], um encanador mentiroso, que tem uma estrutura diferente do verde. Como o roxo lida com essa situação? Como ele vai escolher em qual das duas estruturas ele quer ficar em harmonia?
-Lembrando que o roxo não conhece nem o verde e nem [este do meio], então ele não pode confiar em alguém só porque ele confia naquela pessoa. E se não fosse assim, o sistema não seria descentralizado. Pois daí o roxo teria que ver, em algum lugar específico, para saber quem é que é "o confiável", e daí confiar nessa indicação. Essa indicação que faria a separação do verde dos outros participantes seria algo poderoso e que, talvez, poderia ser manipulado por alguém mal-intencionado, caso essa pessoa tivesse poder para fazer isso.
-E podemos saber também que o roxo não pode confiar em nenhum tipo de maioria. Lembrando que o roxo só consegue enxergar as comunicações que ele recebe, então neste caso ele enxerga uma comunicação do verde, uma deste cara do meio e uma do cinza, que está em harmonia com o cara do meio. Neste caso, os dois do meio são uma maioria em quantidade, porém na verdade, o cara do meio está fazendo duas comunicações com o roxo e está fingindo que o cara cinza existe. Então como qualquer um pode fingir ser vários, não é possível considerar na maioria para nada.
+Na verdade nós já temos uma maneira de fazer isso. O verde poderia enviar os envelopes e as bolinhas de ordem, um de cada vez por exemplo, e na ordem mesmo. O roxo pode ir recebendo um-a-um, e ir construindo a sua própria estrutura com base nos envelopes.
+
+Mas digamos que chega este [aqui], um encanador mentiroso, que tem uma estrutura diferente do verde. Como o roxo lida com essa situação? Como ele vai escolher em qual das duas estruturas ele quer ficar em harmonia?
+Lembrando que o roxo não conhece nem o verde e nem [este do meio], então ele não pode confiar em alguém só porque ele "já confiaria" naquela pessoa. E se não fosse assim, o sistema não seria descentralizado. Pois daí o roxo teria que ver, em algum lugar específico, para saber quem é que é "o cara confiável", e daí confiar nessa indicação. Essa indicação que faria a separação do verde dos outros participantes seria algo poderoso e que, talvez, poderia ser manipulado por alguém mal-intencionado, caso essa pessoa tivesse poder para fazer isso.
+E podemos saber também que o roxo não pode confiar em nenhum tipo de maioria. Lembrando que o roxo só consegue enxergar as comunicações que ele recebe, então neste caso ele enxerga uma comunicação do verde, uma deste cara do meio e uma do cinza, que está em harmonia com o cara do meio. Neste caso, os dois do meio são uma maioria em quantidade, porém na verdade, o cara do meio está fazendo duas comunicações com o roxo e está fingindo que o cara cinza existe. Então como qualquer encanador pode fingir ser vários encanadores, não é possível considerar a maioria para nada.
 E também não é possível confiar na quantidade de canos que há nas estruturas, caso você tenha considerado essa possibilidade. O cara do meio poderia simplesmente fazer uma estrutura que tem mais canos que o verde. Poderia ser que todas essas cores que ele utilizou são de pessoas que ele inventou também. Não é possível confiar na quantidade de cores e nem na quantidade de canos.
-Além disso, no começo eu disse que o verde estava dizendo a verdade e o do meio era o mentiroso. Mas porque você deveria confiar em mim? e se Eu estou mentindo, e na verdade o verde é que é o mentiroso? Até agora você provavelmente está pensando em como destacar o verde sobre o do meio, mas e se, na verdade, nem eu e nem você sabemos quem é que é o mentiroso? Os dois poderiam ser mentirosos.. Pode ser que o cara que tem a estrutura de canos "de verdade" ainda não conseguiu se comunicar com o roxo, e a gente nem sabe quem é..
-E finalmente, temos uma complicação sobre a descrição. Como o verde iria descrever a estrutura dele? Poderia o roxo, depois de começar a ficar em harmonia com o verde, parar de se comunciar por um tempo e retomar mais tarde - ou ele teria que começar do zero de novo? E se a estrutura mudar enquanto o roxo ainda está ficando em harmonia com o verde? Essas questões de agora tem menos importância que as anteriores, mas ainda merecem um destaque.
 
+Além disso, no começo eu disse que o verde estava dizendo a verdade e o do meio era o mentiroso. Mas porque você deveria confiar em mim? e se Eu estou mentindo, e na verdade o verde é que é o mentiroso?
+Agora sim você consegue imaginar a dificuldade que o roxo teria. E pode piorar: os dois poderiam ser mentirosos.. Pode ser que o cara que tem a estrutura de canos "de verdade" ainda não conseguiu se comunicar com o roxo, e a gente nem sabe quem que ele é ainda..
 
-E então, essa foi a nossa terceira complicação que, para falar a verdade, está bastante relacionada com a complicação anterior.
-
-
-----------------------------------------------------------------------
-
-Então para retomar, a primeira complicação foi sobre o desejo pela imutabilidade do histórico dos canos; a segunda foi sobre a decisão sobre a divergência da estrutura de canos, e a terceira foi sobre escolha de confiança, digamos assim.
-
-Calma que tem mais..
+E então, essa foi a nossa terceira complicação que, para falar a verdade, já está dentro da complicação anterior. Como saber em quem - ou qual informação - confiar.
 
 ----------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Calma que tem mais complicação pela frente..
 
 
 
@@ -381,47 +276,157 @@ Calma que tem mais..
 
 ----------------------------------------------------------------------
 
-TODO: parei aqui
+A próxima complicação, que já é a quarta, está relacionada com definição de Limites.
+Digamos que o azul chegue e encomende um cano que, no caso, a ponta é dele mesmo.
+Ele pode ficar fazendo isso sem parar. Fazendo uma encomenda após a outra.
+Pra ele, isso não é difícil, pois ele não precisa lembrar de muita coisa. Ele só precisa lembrar de uma única foto, que é sempre o da última encomenda que ele fez, e ficar substituindo essa foto a cada vez que ele faz uma nova encomenda - pois a foto é um dos ingredientes da próxima encomenda.
+Mas o verde precisa ficar analisando a encomenda e realmente lembrar todas de todas encomendas. Precisa lembrar da estrutura inteira.
+Não só o verde precisará fazer isso, mas também todos os encanadores.
 
+Portanto, se o sistema for usado de uma forma que não tenha uma mecânica que limite certas coisas, um pequeno grupo de pessoas mal-intencionadas pode criar um peso que os encanadores não aguentem, e acabar destruindo o sistema.
+Então é Muito importante, na definição de um sistemas destes, que se identifique onde que os limites são necessários, e projetar o sistema com mecanismos que imponham certos limites - e claro, decidir como estes mecanismos funcionarão - como eles irão agir e reagir ao próprio sistema, e assim por diante.
+Ainda neste assunto, é bom ter mecanismos não só para evitar que o sistema desmorone, mas também que não fique se comportanto de maneiras indesejáveis. Uma analogia seria assim: o sistema "morrer" seria ruim, mas o sistema "viver sob tortura" também seria ruim.
 
+Podemos pensar num exemplo rápido sobre isso, apenas para esclarecer melhor. Digamos que de alguma forma há um mecanismo que previne que o azul encomende num ritmo que seria grande o suficiente para colapsar o sistema.
+Porém, resolvindo então aquele problema, pode ser que nesta situação - mesmo que o sistema Não entre em colapso - o azul ainda consegue enviar de forma frenética a ponto de fazer com que mais ninguém consiga fazer encomendas, só o azul. Isso seria aquela situação de "apesar de não morrer, se comportar de forma ruim", onde o sistema estaria vivo mas ainda se comportando de uma forma indesejada - e vale lembrar que o azul poderia fingir ser muitas pessoas diferentes, e não apenas uma pessoa fazendo encomenda.
 
+Então aqui, podemos saber que é essencial que o sistema defina certos mecanismos para certos tipos de controle, certos tipos de limites.
 
+Algumas delimitações, mecanismos ou limites necessários são:
+- Pq uma pessoa ou encanador não faria pedidos freneticamente?
+    - Em qual ritmo a estrutura pode ganhar novos canos?
+- O que pode estar dentro da encomenda? dá pra encomenda ser "gigante" (como, num envelope gigante)?
+- Quem - e em qual ritmo - cria os canos que não tem antecedentes? (os que estão direto na base)
+- E poderíamos perguntar num sentido econômico também:
+    - Como funciona a economia disso? 
+    - Pq alguém participaria, sendo encomendador, sendo encanador, deste sistema?
+    - Como isso poderia funcionar como dinheiro? 
+    - E sendo dinheiro, como funcionaria a política monetária deste sistema? 
+    (como as unidades monetárias são produzidas, e por quem?; e em qual ritmo?; etc..)
 
-TODO: A quarta complicação está relacionada com o limite de imaginação e comunicação que as pessoas tem.
-Criar canos sem nunca parar nem por um instante..
-Perigoso pois uma pessoa não precisa lembrar de porra nenhuma, e os outros devem lembrar de uma caralhada de coisa..
-TODO: decidir quem que cria e "começa com a bola". Isso deve ser decidido de alguma forma.
-tudo começa na mão do satoshi? qual a justificativa que ele daria pra convencer as pessoas?
-ps. daí fala que há uma fila re canos enraizados em cada pérola, e o primeiro cano é o coinbase.
-que isso é a recompensa pra ter gente querendo ser encanador (lembrar a porra toda, etc),
-e sendo a criação de moeda essa recompensa, é uma criação um tanto "justa" (não tão arbitrária)
-(isso é uma quuestão tanto de fragilidade do sistema quanto de política monetária)
-ps. daí fala que a fila tem um limite.. e que daí elimina o problema do "canos quase infinitos a qualquer momento" (isso é uma questão de fragilidade do sistema)
-TODO: relacionado com isso acima, de política monetária, a quantidade das emissões também devem, de alguma forma, serem descritas e seguidas. É algo que envolve economia mesmo, mas enfim..
-       E de qualquer forma, os números não deveriam poder chegar a infinito a qualquer próximo, então..
-
-
-
-
-
+Eu não sei se estas seriam realmente essenciais - e nem se há outras delimitações que são essenciais mas que eu esqueci de colocar na lista - mas espero pode comentar sobre algumas delas mais pra frente.
 
 
 ----------------------------------------------------------------------
+
+Então como evitar que o azul destrua o sistema?
+Eu.. não sei como. Já que a gente não sabe, podemos pensar em alguma forma dificultar as coisas pra ele. 
+Mas eu não consigo pensar em uma forma muito clara,
+então vamos deixar esse problema "pra lá"?
+
+Podemos pegar um problema parecido,
+quando o verde tenta criar muitas bolinhas (e também muitos canos) a fim de destruir o sistema, muito parecido com o azul.
+
+Daí a gente já pode começar em dificultar algumas coisas pro verde.
+Então o verde criou um monte de bolinhas. 
+
+Daí o roxo, tá lá de boa.. daí BLAW! aparece um monte de bolinha!
+(ele não sabe, mas é tudo do verde)
+
+Digamos que vc seja um outro encanador nesta história.
+Qual é o problema da situação? por que chegamos a este ponto, do verde instantaneamente poder criar milhares de bolinhas?
+
+É pq é de graça criar bolinhas. Não custa nada pro verde criar uma bolinha.
+É muito fácil pra ele. Então se tivermos uma maneira de mudar essa situação,
+e dificultar o procedimento da criação de bolinhas, este problema, de um monte de
+bolinhas aparecer do nada (e sem parar).. este problema enfraquece.
+
+Então o roxo vai falar assim: "mande essas bolinhas pra lá!"
+"essas bolinhas tão tudo coloridas! tsc a gente só quer bolinhas em tom de cinza!"
+
+isso é uma regra que filtra (e joga fora) essas bolinhas do verde, que o roxo e
+os outros encanadores podem aplicar.
+
+e o verde se pergunta..
+"caramba.. mas como assim? as minhas bolinhas não tem cor nenhuma!"
+
+Daí o verde se lembrou, você só pode ver a cor da bolinha depois que tirar uma foto dela.
+Ele pegando uma das bolinhas que ele tinha criado, posicionou ela e tirou uma foto. 
+E realmente.. a foto que saía era amarelada, e aquela era a verdadeira cor da bolinha.
+
+e o verde se pergunta..
+"E como que eu escolho a cor da bolinha mesmo??"
+
+Daí o verde se lembrou, não tem como escolher a cor.
+Ele pegou a bolinha, bem de perto, e viu que tinha uma pecinha lá dentro.
+Essa peça não servia pra nada.
+
+Ele conseguiu girar a peça um pouquinho,
+colocou a bolinha de volta onde estava,
+pegou a câmera de novo,
+tirou outra foto 
+e daí viu que a cor mudou.
+
+É que se rodar a pecinha para um novo ângulo, a foto sai diferente.
+E não tem como prever qual será a cor da foto.
+Essa tinha saído rosa, e ainda não era em tom de cinza.
+
+E o verde ficou tentando, ficou girando a pecinha, tirando fotos até conseguir uma bolinha que tivesse um tom de cinza.
+
+Essa nova bolinha agora não seria filtrada pelos outros encanadores por ser colorida. Só que agora o verde entendia que ele não conseguia fazer quantas bolinhas quisesse.
+
+
+-------
+
+
+Bem, voltando, isso envolve parte da complicação quatro
+
+
+
+
+
+
+
+
+
+
+
+Mas não só isso,
+ele quer que os outros encanadores aceitem as bolinhas que o verde criou.
+Uma forma que os outros encanadores tem para 
+
+e a gente não gosta disso, então quer dizer que
+
+
+
+Talvez seja possível simplesmente dificultar que isso aconteça.
+
+Então vamos pensar em um mecanismo para que o azul não consiga criar bolinhas freneticamente.
+
+Uma maneira é filtrar bolinhas novas.
+A bolinha precisa ter alguma característica específica para não ser filtrada.
+
+Destas últimas complicações, podemos começar com aquela que
+
+
+-> fazer/escolher/aceitar próximo cano/bolinha (r: pow específico) [compl. 2]
+
+-> ritmo para novos canos (sustentabilidade memória) [compl. 2]
+  -> (resp: pow específico [compl. 2]) 
+
+  -> relacionado: TEMPO (como base boa pra fazer previsões que envolve 
+     crescimento sustentável)
+
+
+
+
+até agora, o que eu tenho:
 
 
 
 
 não precisa do general, mas tipo.. é bom chegar em certos checkpoints..
 
--> assumindo que as mudanças na estruturas são permitidas apenas em situações especiais,
+=> assumindo que as mudanças na estruturas são permitidas apenas em situações especiais,
    (sendo atômicas) - se bem que tendo um cano por bloco meio que já implica essa ideia..
--> assumindo que a ordem dos canos significaria que o problema estaria resolvido,
+=> assumindo que a ordem dos canos significaria que o problema estaria resolvido,
    essa ordem tem que aparecer de alguma forma,
--> começa botando a ordem explícita nos canos...
+=> começa botando a ordem explícita nos canos...
    mas daí mostrar que quem faz a ordem são os encanadores e não encomendadores
 -> ter ordem (explícita) separada da estrutura dos canos, 
    no qual cada cano estará enraizado numa unidade desta estrutura separada..
    (e o cano em específico ganha imutabilidade histórica perante aquela pérola em específica)
+   (nah, na verdade.. isso serve pra imutabilidade do grupo de transações só.)
    só que tem spam de pérola
 -> ter competição por PoW marginal (pérola ser cinza), 
    que é um filtro usado para a escolha SORTEADA do criador da pérola
@@ -430,26 +435,17 @@ não precisa do general, mas tipo.. é bom chegar em certos checkpoints..
        só que daí tem que ter um controle de dificuldade pra ajustar de acordo com o tempo
        ou vice-versa, sei lá.. (o tempo vem depois e tem relação com o controle de dificuldade)
        o que vem antes, a busca por se atrelar ao tempo ou o controle da dificuldade?
-       talvez.. como isso envolve saturação e desenvolvimento da capacidade tecnológica, 
-                isso automaticamente envolve alguma noção de "controle",
-                e o tempo é uma variável "razoável" (que está no alcance) para se atrelar
-       o tempo também pode ser entendido, na questão do PoW marginal, como uma "pulsasão distribuída" (tipo batimento cardíaco mesmo)
    só que aí um general pode tentar adiantar os cálculos para ser o "quinto"
 -> ter referência ao antecedente
    que continua com ordem (que agora é implícita),
    no qual as pérolas antecedentes ganham imutabilidade histórica,
    e no qual a competição do PoW marginal é resetada,
-   e no qual um noob pode acumular o PoW de vários colar-de-pérolas e aceitar o maior
-   (e ao mesmo tempo crer que todos que querem harmonia estão seguindo o maior acc PoW)
 -> conclusão: 
    se as pérolas estão imutáveis, e os canos estão imutáveis perante cada pérola,
    então a estrutura dos canos também está imutável.
    o cano é mais imutável quanto mais antigo for a pérola que ele está enraizado
      o ganho de "força" da imutabilidade sobe exponencialmente com a antiguidade
--> curiosidade: 
-   lista de canos (em ordem) enraizados numa pérola;
 -> curiosidade:
-   o negócio da "pérola" (hash de algo anterior) tambéma contece naquela foto usada, nas encomendas, pra localizar o cano anterior. É tipo o mesmo uso de jeitões de informação. É tipo igual.
    Ou seja, o encadeamento de transações também é uma forma de "enraizar" (conter algum hash). Todo cano posterior enraíza o cano anterior - todo cano anterior estará enraizado no posterior.
    =: toda pérola posterior enraíza o anterior - toda anterior estará enraizada na posterior.
    =: toda pérola da rodada enraíza os canos da rodada - todos os canos da rodada estarão enraizados na pérola da rodada.
@@ -483,18 +479,9 @@ OLD, DELETE:
 
 amber
 
-    na mente, jogo, truco,
-    jogo do truco para falar de forks e tals
-    regras do jogo de truco;
-    cartas na mesa como cadeia de blocos
-    fork na na blockchain é um estado de canos diferentes e incompatíveis
-    fork nas regras dos encanadores
-
-
 obs
 
     - coisa legal: ter um grãozinho, e fazer pérola em volta dele. Daí espremer essa pérola, até ela virar um novo tipo de grãozinho.
-    - tem o papo da gênese e tals. mas enfim..
     - tendo um colar, para conferir uma pérola, vc quebra ela e pega o grãozinho dentro dela. Esse grãozinho tinha que ser feito a partir da anterior. Vc espreme a anterior até virar um grãozinho, e confere se é o mesmo grãozinho. Daí vc põe de volta e fecha a pérola, e espreme ela pra ver se ela mesma consegue virar um grãozinho. GG.
     - err.. na verdade são 2 grãozinhos dentro da pérola kk
     podemos dizer que um grãozinho é uma cor meio cinzento.
@@ -503,3 +490,58 @@ obs
 --------------------------------------------------
 
 
+
+desejos:
+-> imutabilidade histórica de tudo [compl. 1]
+-> fazer/escolher/aceitar próximo cano/bolinha (r: pow específico) [compl. 2]
+-> qual informação confiar (r: nenhuma) [compl. 3]
+
+[compl. 4]
+-> ritmo para novos canos (sustentabilidade memória) [compl. 2]
+  -> (resp: pow específico [compl. 2]) 
+  -> relacionado: TEMPO (como base boa pra fazer previsões que envolve 
+     crescimento sustentável)
+-> uma pessoa criar canos freneticamente (comportamento indesejável) [compl. 4]
+  -> (resp: fee) [compl. 4]
+-> pq isso seria dinheiro? [compl. 4]
+  -> (resp: água flui dentro do cano [compl. 4])
+  -> ps. água criada na base.
+  -> ps. isso tem que ser depois de "vários canos por ordem"
+
+curiosidades:
+-> base vai diminuindo de tamanho, com um certo ritmo;
+-> canos podem ter várias entradas e várias saídas
+
+temos:
+-> estrutura bolinhas
+  -> única por cano [antes da compl. 1]
+  -> sem pow específico [compl. 2]        
+  -> sem pow acc [compl. 3]
+   -> isso abre espaço pro link entre bolinhas; [compl 3]
+   -> isso abre espaço pro mecanismo de dificuldade [compl 3]
+   -> relacionado: TEMPO  (como guia do mecanismo dificuldade) [compl 3]
+  -> sem markle [compl. 1]
+    -> deixar todos os canos "atrelados àquela ordem" imutáveis
+
+
+
+----------------------
+
+
+existe uma harmonia pré-estabelecidada: o tempo, a data de hoje.
+é uma harmonia estável/fixa, que pode ser usada pra guiar o filtro.
+na verdade, o tempo é usado para se guiar a DIFICULDADE.
+Isso faz parte do mecanismo apenas..
+
+porém, o tempo também serve para outro mecanismo: 
+prever o peso em memória/HD, e ter um crescimento sustentável.
+
+tempo usado para:
+-> guiar dificuldade
+-> crescimento sustentável
+
+existe um trabalho que precisa ser feito, que tem a sua DIFICULDADE/CUSTO.
+um simples afunilamento/filtragem quer dizer que os miners terão um CUSTO.
+este custo é relativamente neutro - não discrimina - valoriza o sorteio:
+apenas valoriza o maior montante de "trabalho que foi feito",
+que é apenas gasto de processamento.
