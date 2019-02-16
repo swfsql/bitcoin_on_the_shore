@@ -31,7 +31,7 @@ Uma curiosidade é que, para os primeiros canos, aqueles que não tem nenhum ant
 
 Continuando na curiosidade,
 
-Digamos no cano "gênese", no caso do primeiro cano criado na história da humanidade, feito pelo primeiro encanador e também criador do próprio Bitcoin (que foi o Satoshi Nakamoto), no lugar desta foto, já que ele poderia colocar o que quiser, ele colocou uma frase de texto que é uma manchete de um jornal "The Times", de 03/Jan/2009 (quaaase primeiro de Janeiro de 2009), e a manchete traduzida é "Chanceler à beira do segundo resgate aos bancos" - que era uma reportagem sobre o governo injetando dinheiro em algum banco que estava "passando aí.. por problemas financeiros". Claro que isso é uma forma de demostrar que aquele cano foi feito DEPOIS daquela data da reportagem - ou seja, ele marcou um ponto, uma data, inicial - mas também é uma forma bem artística de gravura. Se você forçar um pouquinho, é quase como "rabiscar uma parede de uma caverna", e ele acabou gravando esta frase que representa as críticas e os motivos pelos quais aquele sistema nasceu.
+Digamos no cano "gênese", no caso do primeiro cano criado na história da humanidade, feito pelo primeiro encanador e também criador do próprio Bitcoin (que foi o SÁtoshi Naka-moto), no lugar desta foto, já que ele poderia colocar o que quiser, ele colocou uma frase de texto que é uma manchete de um jornal "The Times", de 03/Jan/2009 (quaaase primeiro de Janeiro de 2009), e a manchete traduzida é "Chanceler à beira do segundo resgate aos bancos" - que era uma reportagem sobre o governo injetando dinheiro em algum banco que estava "passando aí.. por problemas financeiros". Claro que isso é uma forma de demostrar que aquele cano foi feito DEPOIS daquela data da reportagem - ou seja, ele marcou um ponto, uma data, inicial - mas também é uma forma bem artística de gravura. Se você forçar um pouquinho, é quase como "rabiscar uma parede de uma caverna", e ele acabou gravando esta frase que representa as críticas e os motivos pelos quais aquele sistema nasceu.
 
 
 Já que saímos um pouco dessa parte técnica, agora eu vou continuar nesse embalo.
@@ -293,7 +293,7 @@ Porém, resolvindo então aquele problema, pode ser que nesta situação - mesmo
 Então aqui, podemos saber que é essencial que o sistema defina certos mecanismos para certos tipos de controle, certos tipos de limites.
 
 Algumas delimitações, mecanismos ou limites necessários são:
-- Pq uma pessoa ou encanador não faria pedidos freneticamente?
+- Pq uma pessoa ou encanador não faria uma enxente de pedidos?
     - Em qual ritmo a estrutura pode ganhar novos canos?
 - O que pode estar dentro da encomenda? dá pra encomenda ser "gigante" (como, num envelope gigante)?
 - Quem - e em qual ritmo - cria os canos que não tem antecedentes? (os que estão direto na base)
@@ -365,38 +365,117 @@ E o verde ficou tentando, ficou girando a pecinha, tirando fotos até conseguir 
 
 Essa nova bolinha agora não seria filtrada pelos outros encanadores por ser colorida. Só que agora o verde entendia que ele não conseguia fazer quantas bolinhas quisesse.
 
+-------
+
+Bem, voltando, isso envolve parte da complicação quatro, que era de um encanador ficar criando bolinhas de forma frenética. 
+
+Já que a bolinha só passará do filtro, pelos outros, caso esteja em tom de cinza, este encanador maldoso terá que passar por aquele processo de ficar tentando ter a sorte de conseguir uma bolinha em tom de cinza -  e não mais poderá criar bolinhas a seu bel prazer.
+
+Para o encanador maldoso, isso de ficar naqueles procedimentos, significa um custo. O objetivo daquele filtro é este mesmo, aplicar um custo para evitar uma enxente de bolinhas, que poderia ser iniciada por qualquer um. E é um "custo" no sentido econômico mesmo: o encanador gasta tempo e esforço pra ficar fazendo aqueles procedimentos. Como "tempo é dinheiro", é um custo em dinheiro também.
+
+retornando ao problema anterior, de alguém que faz uma enxente de encomendas,
+Este custo para cada encanador (que queira criar bolinhas) também ajuda a frear com que encomendas entre para aquela estrutura de canos, caso sejam frenéticas. Isso pq a entrada das encomendas depende da entrada de bolinhas. Se as bolinhas não conseguem entrar de forma frenética, as encomendas também não consiguirão.
+
+Ainda continuamos com aquele problema de alguém fazer uma enxente de encomendas para impedir que outras pessoas consigam, na prática, fazer encomendas. E a medida contra isso, talvez você já imagine..: é parecida com esta que vimos agora, é a aplicação de um tipo de filtro também, com a intenção de aplicar certos custos sobre quem faz encomendas.
+Mas depois veremos mais sobre isso.
 
 -------
 
 
-Bem, voltando, isso envolve parte da complicação quatro
+Digamos que tem estes encanadores querendo criar bolinhas.
+Cada um deles está tentando criar a sétima bolinha.
+
+Digamos que o verde consiga. (coloquei a borde em verde pra mostrar que foi ele que conseguiu)
+Ele então mostra a bolinha para os outros, e eles verificam que a bolinha realmente tenha passado pelo filtro. 
+Então os outros decidem aceitar a bolinha do verde.
+E daí tentam criar a próxima bolinha.
+
+Digamos que eles sejam muito parecidos, e na média, cada um consiga criar a mesma quantidade que os outros.
+
+Porém, às vezes, eles conseguem criar ao mesmo tempo, cada um, a sua bolinha.
+Na hora de incorporar sua própria bolinha e comparilhar com os outros, eles tiveram um problema.
+O cara do meio foi mais ligeiro, e compartilhou com o outro antes que o verde tivesse feito isso.
+(E neste caso aqui, os três tinham combinado que eles iriam seguir o que a maioria segue)
+(E eles sabiam que era uma competição particular apenas entre os três, e que ninguém mais entraria)
+
+Então o verde não teria escolha senão jogar fora a sua bolinha, e incorporar a bolinha do cara do meio.
+
+Mas aí o verde se irritou com i
+
+O que será que ele fez?
+
+Isso.
+
+Enquanto os dois ficavam disputando pela 14, o verde foi pra uma outra bolinha, mais pra frente.
+Nos casos em que eles tivessem a "sorte" de conseguir criar uma bolinha (cada um) ao mesmo tempo, e digamos que os três tenham encontrado, o verde nunca precisa jogar a sua bolinha fora, porém entre os outros dois, um deles sempre precisa jogar fora.
+
+E digamos que o roxo tenha sido mais ligeiro que o cara do meio, e todos acabaram ficando com a do roxo.
+Neste caso, o verde aceita o do roxo (pra ele tanto faz), e guarda aquela bolinha que ele achou anteriormente, pra usar depois, quando chegar a hora, para daí ele só compartilhar com os outros.
+Daí ele continua no mesmo esquema, tentando criar uma bolinha mais pra frente de novo.
+
+Fazendo isso, o verde acabou conseguindo ter mais bolinhas (que ele teria se tivesse competindo normalmente).
+
+O roxo e o outro, depois de um tempo e ao longo do tempo, perceberam que o verde estava criando mais bolinhas do que eles, e também perceberam o esquema dele.
+
+Então decidiram que eles queriam garantir que todos estavam sempre competindo para criar a exatamente próxima bolinha, e não uma bolinha mais distante pra frente, igual o verde tava fazendo.
+
+Resolveram repetir uma ideia que já existia entre os canos.
+O primeiro ingrediente do envelope de um cano é exatamente a foto do envelope do cano anterior.
+
+Só que para este caso, decidiram que dentro da bolinha deverá haver uma foto da bolinha anterior.
+Assim, enquanto ainda não existe a tal da bolinha anterior, claro, não vai existir "uma foto" dela também. (Pois só vai dar pra tirar a foto da bolinha quando tiver a bolinha).
+Ou seja, se o pessoal ainda está na bolinha n. 10, não dá pra tentar criar uma mais pra frente, como a n. 22, pois pra ela precisaria da foto da n. 21.. mas como só existe até a décima, então não dá.
+
+
+Então no procedimento da criação da n. 11, o verde precisa pegar a bolinha anterior, pegar a câmera, tirar uma foto dela, e guardar a foto. Pegar a bolinha que ele está criando, a próxima, e dentro da bolinha, colocar a foto lá dentro também. Daí ao invés de desenhar a foto lá dentro, a gente vai deixar a bolinha com sombra. Então bolinha com sombra quer dizer que ela tem a foto da bolinha anterior.
+
+Também tem como desenhar uma seta indo pra bolinha anterior, indicando exatamente que a foto foi feita a partir da bolinha anterior.
+Desta forma, mostrando todas as bolinhas neste exemplo, cada bolinha com sombra tem uma seta pra anterior.
+
+Uma curiosidade, é que a primeira não tem uma bolinha anterior. Neste caso, resolveram deixar o espaço da foto sem nada lá dentro. Seria o mesmo que pegar um papel da foto e pintar ele completamente de preto, não há desenho nenhum para se ver.
+
+Então se fôssemos insistir em desenhar algo como uma seta para o caso da primeira bolinha, poderia ser uma seta que não aponta pra nada especificamente, sem ponta.
+
+Então, depois de arrumado essa coisa de foto dentro da bolinha, a criação continua a mesma.. 
+(ficar girando aquela pecinha e ficar tirando foto, na tentativa de sair com uma foto em tom de cinza)
+
+-----
+
+Essa cerimônia toda pra poder criar bolinhas ajuda a resolver algumas complicações.
+Não só o verde não consegue fazer uma enxente de bolinhas (ou senão seriam filtradas pelos outros),
+mas também não consegue adiantar trabalho (em uma bolinha que seria criada futuramente), ou seja,
+deve realmente competir com os outros encanadores.
+
+E existe um efeito peculiar e que não vimos muito bem até agora:
+
+De forma parecida como os canos, cada bolinha tem uma foto da bolinha anterior. E essa bolinha anterior tem que ser intacta pq senão essa alteração faria com que todas as bolinhas que vieram depois fossem descartadas. Ou seja, cada bolinha é em prol da imutabilidade das bolinhas anteriores.
+
+Por exemplo, uma mudança na bolinha n. 1, como uma pequena girada naquela pecinha que gira, faria com que uma foto que a gente tirasse dessa bolinha fosse diferente do que era antes - e o primeiro ponto é que esta foto PODERIA sair da escala de cinza, e então esta bolinha não passaria do filtro dos encanadores. Além disto temos o segundo ponto: mesmo que a nova foto continuasse na escala de cinza, ela ainda seria "diferente" do que era antes, e então a próxima bolinha também seria afetada, já que dentro desta próxima bolinha existe exatamente a foto da primeira bolinha, que agora, como vimos, é diferente. Se a gente tirasse uma foto desta segunda bolinha, seria diferente da foto antiga, pois a segunda bolinha mudou! e os dois pontos que falamos pra primeira bolinha agora se aplicam pra segunda, e como num efeito dominó, os pontos se plicam a cada uma até a última, inutilizando todas as bolinhas que vierem a partir daquela que sofreu qualquer mudança.
+
+Portanto é como se cada bolinha "se atrelasse" à bolinha anterior, e isso continua sendo representado pelas setinhas. Como existe um trabalho específico na criação de cada bolinha, e cada bolinha está atrelada à anterior, este trabalho específico, de certa forma, também está atrelado à bolinha anterior.
+
+Por exemplo, o trabalho na criação da segunda bolinha está atrelado à segunda bolinha e também à primeira.
+E o trabalho na criação da terceira está atrelado à terceira e também à segunda, e de forma mais indireta, também à primeira.
+
+Então quais bolinhas e trabalhos estão atrelados à primeira bolinha? todas e todos o que vierem depois, direta ou indiretamente, estão atrelados a ela.
+
+Desta forma, a primeira bolinha não tem apenas atrelado a ela o trabalho na criação da sua própria bolinha, mas o acúmulo de trabalho das bolinhas que vieram depois.
+
+De forma parecida, isso também se aplica à segunda bolinha. O trabalho atrelado à quarta bolinha está diretamente atrelado à terceira, e indiretamente à segunda. E não só da quarta, como também da quinta, e assim por diante.
+
+E isso não pára na segunda, também se aplica à terceira, e assim por diante.
+Cada bolinha tem, atrelado à ela, um acúmulo de trabalho atrelado à cada bolinha posterior a ela.
+
+Não sei, realmente, se ajuda.. mas também dá pra entender esta noção de acúmulo se você pensar que a primeira bolinha na verdade é um grão de areia dentro de uma concha de uma ostra. Quando aparece uma bolinha nova, a ostra ataca o grão e faz mais uma camada de madrepérola em torno dele. A segunda bolinha também seria um outro grão dentro de uma concha de uma segunda ostra, sendo atacado a cada bolinha posterior que aparece. Cada próxima bolinha também seria grãos novos, cercados por novas camadas de madrepérolas à medida que novas bolinhas posteriores aparecessem. Assim, a cada instante, temos várias pérolas, sendo as mais antigas as maiores e mais bem protegidas.
+
+TODO referência:
+Esta noção de camadas, porém mosquito no âmbar (igual os do parque dos dinossauros), foi utilizada por Nick Szabo.
+
+---------------------------------------------------------
 
 
 
-
-
-
-
-
-
-
-
-Mas não só isso,
-ele quer que os outros encanadores aceitem as bolinhas que o verde criou.
-Uma forma que os outros encanadores tem para 
-
-e a gente não gosta disso, então quer dizer que
-
-
-
-Talvez seja possível simplesmente dificultar que isso aconteça.
-
-Então vamos pensar em um mecanismo para que o azul não consiga criar bolinhas freneticamente.
-
-Uma maneira é filtrar bolinhas novas.
-A bolinha precisa ter alguma característica específica para não ser filtrada.
-
-Destas últimas complicações, podemos começar com aquela que
+TODO: parei aqui
 
 
 -> fazer/escolher/aceitar próximo cano/bolinha (r: pow específico) [compl. 2]
@@ -408,11 +487,7 @@ Destas últimas complicações, podemos começar com aquela que
      crescimento sustentável)
 
 
-
-
 até agora, o que eu tenho:
-
-
 
 
 não precisa do general, mas tipo.. é bom chegar em certos checkpoints..
@@ -501,7 +576,7 @@ desejos:
   -> (resp: pow específico [compl. 2]) 
   -> relacionado: TEMPO (como base boa pra fazer previsões que envolve 
      crescimento sustentável)
--> uma pessoa criar canos freneticamente (comportamento indesejável) [compl. 4]
+-> uma pessoa fazer uma enxente de canos (comportamento indesejável) [compl. 4]
   -> (resp: fee) [compl. 4]
 -> pq isso seria dinheiro? [compl. 4]
   -> (resp: água flui dentro do cano [compl. 4])
