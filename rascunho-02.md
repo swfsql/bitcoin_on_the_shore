@@ -441,14 +441,14 @@ Então, depois de arrumado essa coisa de foto dentro da bolinha, a criação con
 
 -----
 
-Essa cerimônia toda pra poder criar bolinhas ajuda a resolver algumas complicações.
-Não só o verde não consegue fazer uma enxente de bolinhas (ou senão seriam filtradas pelos outros),
+E havendo essa cerimônia toda pra poder criar bolinhas, agora:
+Não só o verde não consegue mais fazer uma enxente de bolinhas (ou senão seriam filtradas pelos outros),
 mas também não consegue adiantar trabalho (em uma bolinha que seria criada futuramente), ou seja,
 deve realmente competir com os outros encanadores.
 
-E existe um efeito peculiar e que não vimos muito bem até agora:
+E ainda existe um efeito interessante, que ajuda a resolver várias complicações, não só esta que acabamos de ver:
 
-De forma parecida como os canos, cada bolinha tem uma foto da bolinha anterior. E essa bolinha anterior tem que ser intacta pq senão essa alteração faria com que todas as bolinhas que vieram depois fossem descartadas. Ou seja, cada bolinha é em prol da imutabilidade das bolinhas anteriores.
+De forma parecida como os canos, cada bolinha tem uma foto da bolinha anterior. E essa bolinha anterior tem que ser intacta pq senão essa alteração faria com que todas as bolinhas que vieram depois fossem descartadas. Ou seja, cada bolinha "torce" para que as anteriores não sejam mudadas.
 
 Por exemplo, uma mudança na bolinha n. 1, como uma pequena girada naquela pecinha que gira, faria com que uma foto que a gente tirasse dessa bolinha fosse diferente do que era antes - e o primeiro ponto é que esta foto PODERIA sair da escala de cinza, e então esta bolinha não passaria do filtro dos encanadores. Além disto temos o segundo ponto: mesmo que a nova foto continuasse na escala de cinza, ela ainda seria "diferente" do que era antes, e então a próxima bolinha também seria afetada, já que dentro desta próxima bolinha existe exatamente a foto da primeira bolinha, que agora, como vimos, é diferente. Se a gente tirasse uma foto desta segunda bolinha, seria diferente da foto antiga, pois a segunda bolinha mudou! e os dois pontos que falamos pra primeira bolinha agora se aplicam pra segunda, e como num efeito dominó, os pontos se plicam a cada uma até a última, inutilizando todas as bolinhas que vierem a partir daquela que sofreu qualquer mudança.
 
@@ -466,10 +466,74 @@ De forma parecida, isso também se aplica à segunda bolinha. O trabalho atrelad
 E isso não pára na segunda, também se aplica à terceira, e assim por diante.
 Cada bolinha tem, atrelado à ela, um acúmulo de trabalho atrelado à cada bolinha posterior a ela.
 
-Não sei, realmente, se ajuda.. mas também dá pra entender esta noção de acúmulo se você pensar que a primeira bolinha na verdade é um grão de areia dentro de uma concha de uma ostra. Quando aparece uma bolinha nova, a ostra ataca o grão e faz mais uma camada de madrepérola em torno dele. A segunda bolinha também seria um outro grão dentro de uma concha de uma segunda ostra, sendo atacado a cada bolinha posterior que aparece. Cada próxima bolinha também seria grãos novos, cercados por novas camadas de madrepérolas à medida que novas bolinhas posteriores aparecessem. Assim, a cada instante, temos várias pérolas, sendo as mais antigas as maiores e mais bem protegidas.
+--
+
+Podemos pensar nas bolinhas de outra forma, para facilitar o entendimento deste acúmulo de trabalho.
+
+A primeira bolinha, antes de ficar na escala de cinza, é um "grão de areia".
+Enquanto a bolinha está tentando ficar na escala de cinza, aquele grão de areia está dentro de uma concha de uma ostra, porém esta ostra está dormindo.
+Quando a bolinha consegue ficar na escala de cinza, é quando a ostra acorda e ataca o grão de areia, formando uma primeira camada de madrepérola em torno daquele grão de areia - e depois retorna a dormir.
+
+Já que agora estamos falando de pérolas..
+Então dizer que os outros encanadores só aceitam esta primeira bolinha quando ela estiver na escala de cinza, 
+é o mesmo que dizer que os outros encanadores só aceitam esta primeira concha quando ela tiver uma pérola dentro dela.
+
+E aliás,
+essas setas que cada bolinha tem com a anterior, na verdade parecem um cordão. 
+Então dá pra imaginar que as pérolas estão fora das conchas e formam um tipo de um colar - só que na verdade é um colar que está aberto e quer sempre continuar crescendo.
+
+Voltando pra primeira pérola, na verdade ainda dentro da primeira concha,
+mas quando chega a segunda concha com uma pérola, a primeira ostra leva um susto, acorda, e ataca a primeira pérola de novo, formando mais uma camada de madrepérola em torno da primeira pérola. 
+Ou seja, a primeira pérola cresce.
+
+E quando chega uma nova concha com uma pérola, a terceira, todas as ostras anteriores acordam assustadas e atacam as suas pérolas de novo (cada uma atacando a sua, separado), e cada pérola cresce um pouco mais.
+
+Desta forma, pelo tamanho das pérolas, a gente poderia ver esse acúmulo de trabalho (direto e indireto) que aconteceu sobre aquele grão. E quanto maior a pérola, mais camadas de madrepérola em torno daquele grão, e mais protegido ele está.
+E quais pérolas será que seriam as maiores..?
 
 TODO referência:
-Esta noção de camadas, porém mosquito no âmbar (igual os do parque dos dinossauros), foi utilizada por Nick Szabo.
+Esta noção de camadas, porém com mosquito no âmbar (igual os do parque dos dinossauros), foi utilizada por Nick Szabo.
+
+--
+
+Essa "proteção" sobre o grão é para algo específico: que coisas antigas fiquem como estão, fixas e paradas,que fiquem congeladas, que não sofram mudanças, ou seja, que fiquem imutáveis - que é o que resolve a primeira complicação que vimos.
+Então finalmente temos algo - o tamanho ou a espessura da pérola - para indicar uma resistência à mudanças daquelas coisas que ficam dentro do grão. Não é uma resistência perfeita, mas pelo menos podemos ver e observar a "força" dessa resistência. Este acúmulo de camadas, por sua vez, se dá pelo acúmulo dos trabalhos realizados sobre a criação da própria bolinha e também de cada bolinha posterior à ela.
+
+--
+
+Mas por enquanto cada envelope associado a cada bolinha não tem nenhuma resistência à mudanças.
+Por enquanto, o verde poderia pegar um colar que já existe, e simplesmente trocar um envelope dele, e repassar essas informações como se aquele envelope fosse um que ele mesmo tivesse encomendado (ao invés do roxo). 
+
+Na verdade nós já vimos formas de como resolver isso.
+A gente precisa fazer com que uma mudança no envelope também afete a bolinha.
+Pois se a bolinha for afetada, ela muito provavelmente vai mudar de cor e parar de passar no filtro; ou mesmo que continue na cor, ela não consegue receber uma seta da próxima bolinha, pois a foto da primeira bolinha ficaria diferente daquela que estava dentro da segunda bolinha.
+
+Bem, pra fazer com que uma mudança no envelope afete a bolinha, já vimos algo parecido lá bem no começo, depois eu falo o que é.
+
+Resolvendo, basta colocar na bolinha uma foto do envelope - antes de começar a deixar ela na escala de cinza.
+E daí quando alguém receber a bolinha (na escala de cinza) e o envelope 
+- ou a concha com um grão com a primeira camada de madrepérola e o envelope - (dá na mesma), 
+a pessoa terá que tirar uma foto do envelope e comparar com a foto que foi colocada dentro da bolinha
+- ou dentro da pérola -
+e ver se as fotos são iguais.
+
+Lá no começo vimos algo parecido, na criação de estampas. Naquela situação, a gente queria transmitir uma mensagem e uma foto da mensagem trancada por uma chave com sombra do remetente. O destinatário teria a chave sem sombra, poderia destrancar a foto e comparar com uma que ele tirasse alí na hora da mensagem.
+Neste caso nosso de agora, não é preciso trancar a foto pq ela já está bem protegida e imobilizada pelas camadas de madrepérolas.
+
+Assim, aeee, de certa forma, resolvemos a primeira complicação!
+A da imutabilidade histórica - mesmo que seja uma tendência de imutabilidade!
+
+---
+
+TODO 2: escolha da próxima bolinha (dos veteranos, escolher o que tiver mais espesso)
+ - isso também envolve "votar" numa cadeia específica
+ - compl 2
+
+TODO 3: escolha de cadeias distintas.
+ - escolher aquela cujo a primeira pérola é maior
+ - compl 3
+
+
 
 ---------------------------------------------------------
 
