@@ -1,11 +1,90 @@
+Título: Bitcoin para crianças de 40 anos
+Title: Bitcoin for 40yo children
+
+
+--------
+notes de música
+- música boa: 
+    - 15 - ldr agun-agun (7:00)
+        - meio que "insetos na noite", sei la
+    - 14 - ldr sigra
+        - parece ser boazinha
+- música razoável: 
+    - 12 - ldr manggala (9:00)
+        - ritmo ok, e tem partes bem tranquilas
+    - 10 - lcr kebogiro (6:33)
+        - ritmo ok
+- talvez considerar:
+    - 05 - gd dengglung
+
 
 ------------------------------
 
+Video resources on Bitcoin's history, origins and influences
+1. Origens ideológicas do Bitcoin - https://www.youtube.com/watch?v=dygjQg7sFYE
+    Presented by Avelino Morganti
+    - Oficial website: https://cypherpunks.com.br/ 
+    - Github: https://github.com/cypherpunksbr/cypherpunks.com.br
+2. As origens do dinheiro eletrônico, de Menger a Nakamoto - https://www.youtube.com/watch?v=3KiGzwfgg0A
+    Presented by Fernando Ulrich
+3. History of the Blockchain - https://www.youtube.com/watch?v=YpSeOU1VVj4
+    Presented by Nick Szabo
+
+------------------------------
+
+Credits
+1. Fly in and amber analogy by Nick Szabo
+2. Cryptography insights and overall knowledge from https://www.youtube.com/user/ArtOfTheProblem
+3. Drawing software and third-party symbols from http://draw.io/
+4. Songs from "Music From Bali: Original Javanese Music" album, from "The Gamelan Orchestra".
+    Copyright 2011 One World Productions
+    - Spotify: https://open.spotify.com/album/7eO2BqaTmZuqxaGx0bB5br
+    - Amazon Music: https://www.amazon.com/Music-Bali-Original-Javanese/dp/B005JKUJ4S
+
+------------------------------
+
+1. Intro Blockchain - intro transação
+2. Intro cano
+    1. Borda do cano
+3. Intro chaves - priv lock
+    1. Pub lock
+    2. Cenário inicial
+        1. Mensagem confidencial
+        2. Mensagem autêntica
+    3. Câmera e foto
+        1. Assinatura digital
+        2. De novo
+4. Envelopes
+
+
+------------------------------
+
+# 1
+
+# 2
+
+## 2.1
+
+# 3
+
+## 3.1
+
+## 3.2
+
+## 3.3
+
+### 3.3.1
+
+### 3.3.2
+
+# 4
+
+------------------------------
 
 Agora eu vou voltar no primeiro ingrediente pra entendermos ele melhor.
 
 Uma noção importante que não falei ainda: 
-os ingredientes de um cano, juntinhos em um envelope, "é" o próprio cano. Por outro lado, e no mesmo sentido, um cano "é" o seu envelope com os seus ingredientes. Falar de um é falar do outro.
+os ingredientes de um cano, juntinhos em um envelope, "é" o próprio cano. Por outro lado, e no mesmo sentido, um cano "é" o seu envelope com os seus ingredientes. Falar de um é falar do outro, e vice-versa.
 
 Neste exemplo, estamos fazendo um cano novo, do azul para o verde. E um dos ingredientes dentro de seu envelope é uma foto, e esta foto foi tirada sobre o cano anterior, ou seja, sobre os ingredientes do cano anterior [marcado de cinza]. 
 
