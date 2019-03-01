@@ -7,8 +7,13 @@ notes de música
 - música boa: 
     - 15 - ldr agun-agun (7:00)
         - meio que "insetos na noite", sei la
-    - 14 - ldr sigra
+        - lá pros 1:20 fica bem lenta
+        - mas a partir dos 6:00 começa a ficar rápida
+        - pode ser a primeira tbm, e ser reutilizada várias vezes
+    - 14 - ldr sigra (6:00)
         - parece ser boazinha
+        - em 1:00 fica lenta, daí fica tipo a agun-agun
+        - em 4:50 começa a acelerar
 - música razoável: 
     - 12 - ldr manggala (9:00)
         - ritmo ok, e tem partes bem tranquilas
@@ -16,6 +21,13 @@ notes de música
         - ritmo ok
 - talvez considerar:
     - 05 - gd dengglung
+    - 01 - ldr-balabak
+        - começa doido, mas depois de 01:18 fica mais de boa. Pode ser a primeira
+        .. mas lá pros 5:00 começa a acelerar, ou dar umas aceleradas..
+- provavelmente não
+    - 08 - ldr lagu
+        - pega um ritimo +- bom, 
+          mas o começo e no geral é irritante
 
 
 ------------------------------
@@ -43,6 +55,7 @@ Credits
 
 ------------------------------
 
+0. Intro
 1. Intro Blockchain - intro transação
 2. Intro cano
     1. Borda do cano
@@ -55,29 +68,67 @@ Credits
         1. Assinatura digital
         2. De novo
 4. Envelopes
+TODO
 
 
 ------------------------------
 
-# 1
+# 0 - Intro
 
-# 2
+Olá, isso daqui é uma apresentação sobre Bitcoin.
+Então.. falando rapidamente sobre o que eu vou fazer agora,
 
-## 2.1
+tá.. é bom eu adiantar que se você quer saber "como usar", "onde comprar", essas coisas,
+então na verdade não vai adiantar.. em nada.. vc ver esse video aqui. 
 
-# 3
+pq esse video aqui é meio teórico, não fala nem mostra nada de coisas práticas sobre o Bitcoin
 
-## 3.1
+Então, eu sou da área da computação (eu estudo ela), e quando eu comecei a aprender sobre o Bitcoin,
+(- a gente que é da área entende algumas coisas.. que é difícil de perceber [pra que não é da área])
 
-## 3.2
+então, o objetivo desse video aqui, é passar esse jeito de enxergar o Bitcoin,
+né.. se vc tiver a curiosidade de saber, msm vc não sendo da área de computação,
+e msm vc não sabendo nada sobre Bitcoin - só precisa saber que o pressoal usa isso como se fosse dinheiro
 
-## 3.3
+Bem, voltando, também é bom eu falar que eu posso ter entendido uma coisa ou outra errada também, 
+então se vc acabar realmente vendo este video,
+na verdade vc vai precisar procurar "mais" sobre o Bitcoin na internet depois.
 
-### 3.3.1
+Além disso, uma coisa ruim, nessa explicação aqui, eu vou usar.. coisa, personagens que.. só servem para esta explicação aqui! mais ninguém na internet vai entender do que vc tá falando, se vc falar das coisas deste video aqui
 
-### 3.3.2
+Ou seja, se vc resolver ver esse video aqui e entender tudo,
+quando vc for ver o pessoal falando sobre bitcoin na internet, vc não vai entender nada
 
-# 4
+então, resumindo, esse video aqui é pra gente que tá com curiosidade 
+e é bom olhar a descrição do video, pois esses slides aqui que eu to usando estão lá tbm
+(caso vc queira olhar eles pelo celular, ou sei lá)
+
+então, bora começar!
+
+# 1 - Intro Blockchain - intro transação
+
+# 2 - Intro cano
+
+## 2.1 - 1. Borda do cano
+
+# 3 - Intro chaves - priv lock
+
+## 3.1 - Pub lock
+
+## 3.2 - Cenário inicial
+
+### 3.2.1 - Mensagem confidencial
+
+### 3.2.2. - Mensagem autêntica
+
+## 3.3 - Câmera e foto
+
+### 3.3.1 - Assinatura digital
+
+### 3.3.2 - De novo
+
+# 4 - Envelopes
+TODO
 
 ------------------------------
 
@@ -570,9 +621,6 @@ E quando chega uma nova concha com uma pérola, a terceira, todas as ostras ante
 Desta forma, pelo tamanho das pérolas, a gente poderia ver esse acúmulo de trabalho (direto e indireto) que aconteceu sobre aquele grão. E quanto maior a pérola, mais camadas de madrepérola em torno daquele grão, e mais protegido ele está.
 E quais pérolas será que seriam as maiores..?
 
-TODO referência:
-Esta noção de camadas, porém com mosquito no âmbar (igual os do parque dos dinossauros), foi utilizada por Nick Szabo.
-
 --
 
 Essa "proteção" sobre o grão é para algo específico: que coisas antigas fiquem como estão, fixas e paradas,que fiquem congeladas, que não sofram mudanças, ou seja, que fiquem imutáveis - que é o que resolve a primeira complicação que vimos.
@@ -600,125 +648,177 @@ Lá no começo vimos algo parecido, na criação de estampas. Naquela situação
 Neste caso nosso de agora, não é preciso trancar a foto pq ela já está bem protegida e imobilizada pelas camadas de madrepérolas.
 
 Assim, aeee, de certa forma, resolvemos a primeira complicação!
-A da imutabilidade histórica - mesmo que seja uma tendência de imutabilidade!
+A da imutabilidade histórica - mesmo não sendo uma imutabilidade perfeita!
+
+---------------------------------------
+
+A segunda complicação era sobre um encanador decidir aceitar uma bolinha nova ou não.
+
+Digamos que o verde e laranja estão em harmonia. As pérolas são as mesmas, e portanto a estrutura dos canos também - apesar de os envelopes nem os canos não estarem sendo desenhados aqui.
+
+Sendo os colares os mesmos, então a proteção acumulativa de madrepérola (direta e indireta) sobre a primeira bolinha de cada colar é a mesma para os dois colares.
+
+Então digamos que o verde tenha criado uma pérola nova. Ele compartilha ela com o laranja e passa a trabalhar na próxima bolinha.
+
+O laranja então recebe aquela pérola do verde, que prolonga a quarta bolinha, aquela mesma que ele estava tentando prolongar por conta própria.
+Na prática, ele poderia ignorar essa quinta pérola do verde e continuar naquela em que já estava trabalhando,
+ou poderia desistir daquela que estava trabalhando e começar a trabalhar na sexta.
+Ou trabalhar nas duas ao mesmo tempo.
+
+(claro, na verdade ele pode fazer o que quiser.
+Se quiser jogar tudo fora e ir embora, é só fazer.
+Se quiser jogar fora metade das bolinhas e fingir que nunca teve bolinha posterior, pode fazer também.
+A questão é que ele provavelmente ficará fora de harmonia com o verde..)
+
+Na verdade a gente pode considerar que mesmo que o laranja já tenha passado um tempo trabalhando em cima da quinta bolinha, isso não quer dizer que ele está "perto de conseguir" fazer ela virar uma pérola. A foto da câmera vai ser tão imprevisível que a sorte que ele precisa pra próxima foto ser em tom de cinza é a mesma, não importa se ele está tentando na quinta, que ele já tentou várias vezes, ou se ele está tentando na sexta, que no caso seria a primeira tentativa.
+
+Ou seja, do ponto de vista da sorte para se criar uma nova pérola, tanto faz tentar na quinta ou na sexta.
+
+Então vamos analisar mais de perto essa situação do laranja,
+é como se o laranja tivesse dois colares de pérolas diferentes, que no caso são idênticos da quarta pérola pra trás.
+
+Porém se considerarmos as camadas de madrepérolas, a quinta pérola, do colar de cima, só está protegida pela própria camada de madrepérola.
+A quarta do colar de baixo também, só está protegida pela própria camada de madrepérola.
+Já a quarta do colar de cima está protegida pela pŕopria camada, mas ainda tem uma outra camada graças, indiretamente, à quinta pérola. O mesmo pode ser dito em relação à terceira, segunda e primeira - por isso que o colar que for maior tem a sua primeira pérola como a mais bem protegida.
+
+Então o laranja tem que decidir o que fazer. Ele sabe que se novos encanadores chegarem, eles devemprovavelmente ficarão em harmonia com o verde, pois é com o colar daquele jeito que há maior proteção para a primeira pérola.
+
+
+Mas vamos ver o que acontece. Digamos que o laranja tenha insistido em continuar na que estava antes, e realmente consegue criar uma nova quinta pérola.
+Daí neste caso, o laranja tem dois colares, um no qual a quinta é do verde, e outro no qual a quinta é do laranja.
+
+Daí o laranja tem que decidir se continuará tentando extender o colar cujo a quinta pérola é dele, ou aquele cujo a quinta pérola é do verde.
+Digamos que ele continue tentando extender esse colar que ele acabou de extender.
+
+O laranja pode inclusive enviar a nova quinta pro verde, e o verde se encontrará na mesma situação que o laranja. Ele poderia ignorar essa quinta pérola do laranja, uma vez que ele já tinha achado e também, se houver ainda outros encanadores, eles provavelmente já terão recebido a pérola que ele achou e já estarão trabalhando em cima dela, tentando prolongar ela,
+
+(para o verde, ele se encontra na mesma situação de opção de colar que o laranja, então ele pode considerar também que são dois colares diferentes)
+ou ele pode abondonar o colar cujo a quinta seja dele, e trabalhar em cima do colar cujo a quinta seja do laranja. Seria o mesmo que abandonar aquela quinta pérola dele.
+
+Digamos que ele continue trabalhando como estava antes, tentando extender aquele cujo o quinto é o dele. 
+
+Porém vamos considerar que o laranja teve sorte outra vez, e conseguiu criar a sexta pérola.
+Que filha da mãe, né?
+
+Daí ele extende aquele colar que estava trabalhando, e envia a bolinha pro verde.
+Os dois então se encontram nesta nova situação, parecido com o que era antes, porém ao contrário.
+
+Daí o verde precisa decidir se abandona o colar que está para ir pro maior. Ele sabe que é isso que os outros participantes provavelmente vão fazer. Se o verde insistir em ficar no colar menor mas o laranja ou os outros participantes continuarem prolongando o outro colar, o verde ficará cada vez em menos harmonia com o restante dos encanadores, até chegar um momento que o verde estará isolado.. os envelopes que ele receber não farão sentido segundo a estrutura dos canos que ele tem, mas fará sentido para os outros encanadores, e vice-versa. O verde ficaria sozinho com a pŕopria estrutura, enquanto os outros encanadores e os outros participantes seguiriam adiante, em um caminho diferente.
+
+Então digamos que o verde toma a decisão de desistir do colar anterior. Como já vimos, eles tem um histórico em comum, mas as últimas pérolas são diferentes. Podemos juntar o histórico completamente em comum em um único colar para visualizar melhor.
+
+Como algumas pérolas são diferentes, alguns envelopes também são diferentes. Então as estruturas estarão diferentes entre o verde e o laranja. Uma das maneiras do verde então ficar em harmonia com o laranja seria retornar ao histórico em comum - removendo a quinta pérola (do verde) e o quinto envelope que acompanhava ela e seus efeitos - e então adicionando a quinta pérola (e seu envelope) e então a sexta pérola (e seu envelope). Assim estaria em harmonia com o verde e estaria com um colar que seria o maior.
+
+É bom a gente observar que para este caso, a estrutura do verde, que era pra ser imutável, sofreu de fato uma mudança! um cano que estava lá desapareceu, e novos canos entraram.
+É como foi dito, a imutabilidade não é perfeita. E de fato, aquele cano que foi removido estava relacionado à quinta pérola (do verde), e ela só contava com a proteção da pŕopria camada de madrepérola. Ou seja, ainda era relativamente frágil, desprotegida.
 
 ---
 
-TODO 2: escolha da próxima bolinha (dos veteranos, escolher o que tiver mais espesso)
- - isso também envolve "votar" numa cadeia específica
- - compl 2
+Isso é diferente para a segunda pérola, por exemplo. Um cano relacionado à segunda pérola está muito mais "enrigecido" pois a segunda pérola possui muitas camadas de madrepérola.
+para alguém conseguir convencer o verde a mudar a segunda pérola, digamos o roxo,
+ele teria que na verdade mudar várias pérolas de uma vez só. Isso pq mexer numa antiga afeta todas as que vierem depois.
 
-TODO 3: escolha de cadeias distintas.
- - escolher aquela cujo a primeira pérola é maior
- - compl 3
+Ele teria então que copiar tudo que viesse antes da segunda pérola, ou seja, a primeira,
+e ao invés de trablhar na sétima, igual os demais encanadores que devem estar em harmonia,
+ele teria que trablhar em uma nova segunda.
 
+Se ele conseguir, daí, depois disso, ele terá começar a trablhar também numa nova terceira...
+e assim por diante... com o objetivo de conseguir encontrar a sétima pérola.
+
+Só que além disso, mesmo que ele faça isso e finalmente chegue na sétima,
+é possível que enquanto ele estivesse fazendo isso tudo, o restante do pessoal continuou prolongando o colar original sem parar. Talvez estejam na pérola n. 20. Daí o roxo precisaria então criar mais pérolas, sozinho, até chegar na n. 21. mas talvez, quando chegue lá, o restante dos encanadores esteja ainda mais pra frente (na de n. 80, por exemplo)..
+
+Então tentar mudar uma pérola antiga pode ser uma jornada sem fim, onde a chegada fique se afastando cada vez mais. Já que se estará competindo contra todo mundo, é de se esperar que é um objetivo difícil de se atingir.
+
+Bem, na verdade é possível alcançar esse objetivo se o roxo conseguir criar pérolas muito mais rapidamente do que o ritmo que outro colar, que os outros encanadores estão trabalhando.
+Se o roxo, de alguma maneira, conseguir fazer isso, então mesmo que ele queira mudar um colar bem antigo e esteja bem longe do objetivo, de pouco em pouco, o objetivo iria chegando mais perto. Talvez ele leve bastante tempo, mas ele conseguiria sim chegar no objetivo e então conseguir oferecer pra todo mundo um colar que seja maior do que aqueles que eles tinham.
+
+Neste caso, podemos considerar que o roxo tem o poder de mudar qualquer cano.
+
+Claro que, neste caso, os outros encanadores, individualmente ou em coletivo, poderiam perceber que algo muito estranho estaria acontecendo, e poderiam fazer uma regra especial: "aquela pérola específica (a segunda), roxa, desse colar novo aí, simplesmente *não vale*". Isso seria um filtro específico que filtraria aquela pérola em específico - o que destruiria o colar inteiro do roxo e o roxo se encontraria isolado novamente, e ainda teria que recomeçar do zero caso quisesse fazer isso de novo.
+
+Porém para os encanadores que estão começando agora, e que não querem confiar em ninguém em específico, seria muito estranho um filtro tão específico desses. Se o roxo insistir em prolongar, mesmo isolado, pode ser que os novos participantes estranhem tanto aquele filtro específico que não incluam aquele filtro, e o colar do roxo passaria a ganhar mais força com o passar do tempo.
+Por outro lado, se o roxo não tiver forças de, além de estar isolado, ter que continuar sendo melhor do que uma combinação de sorte de todos os outros encanadores, eventualmente o colar dele ficará para trás, e pode haver um ponto em que aquele filtro específico pode ser jogado fora. neste caso, teria sido um filtro temporário apenas e para novos entrantes, depois de todo este ocorrido, é como se aquele filtro -  e o colar roxo - nunca tiveram existidos.
+
+---
+
+Então depois disso tudo, nós já vimos como fica a questão da segunda complicação, sobre aceitar novas bolinhas, e da terceira complicação, sobre escolher colares diferentes sem ter que confiar em alguém especificamente. 
+E no final das contas os encanadores sempre tem que escolher um (ou vários, mas isso é mais raro) colares em que ele estará apostando cada instante de trabalho que ele consegue fazer, sendo que ele fica escolhendo a toda hora, mesmo que ele fique escolhendo insistir naquele que ele já está trabalhando.
+
+---
+
+
+Só faltou um detalhe para a segunda complicação, que ainda existe uma grande possibilidade de uma enxente de pérolas acontecer. Caso muitas pessoas passem a ser encanadores, ou caso os encanadores no geral fiquem cada vez mais rápidos, o ritmo de criação de bolinhas tende a aumentar, aproximando-se de um ponto em que haveria uma enxente de pérolas - mesmo considerando que elas sejam todas em tom de cinza.
+
+Uma maneira de resolver isso é fazer com que o filtro seja ajustável ou regulável.
+Então além de exigir um tom de cinza, apenas alguns dos tons de cinza seriam permitidos.
+
+Basta permitir uma grande quantidade de tons de cinza quando tiver poucas bolinhas chegando; 
+e caso a quantidade de bolinhas fique aumentando muito,
+basta regular o filtro para que quantidades cada vez menores de tons de cinza sejam permitidas
+
+Por exemplo, quando tiver chegando bolinha de mais, apenas os tons mais escuros de cinza seriam permitidos.
+Isso deve diminuir a quantidade de bolinhas que chegam.
+
+Só que os encanadores precisam estar em harmonia sobre esta maneira de se regular o filtro.
+
+Se você parar pra pensar, na verdade já existe uma informação que é comum a todos, que todos já estão em harmonia: o tempo / a data.
+
+Mesmo que não seja em uma precisão perfeita,
+as pessoas sabem, ou podem saber facilmente, exatamente em que século estamos, em que ano estamos, em que mês estamos, em que semana estamos..
+Talvez a níveis de horas, minutos e segundos haja uma certa falta de precisão, mas isso não seria um problema. Basta não depender muito destes níveis de precisão.
+
+Portanto basta fazer com que a própria regulagem do filtro dependa apenas de coisas que já estão em harmonia. Ou seja, poderia depender das datas e das pérolas que o pessoal já tem no seu colar (ou seja, as pérolas passadas). As duas coisas já estão em harmonia entre os encanadores.
+Então essas coisas afetariam a regulagem do filtro, que por sua vez afetaria a filtração das próximas pérolas.
+
+Então vamos ver um exemplo bem simples de como se fazer isso.
+
+Digamos que queremos tentar ter sempre o mesmo ritimo para criação de pérolas, de uma pérola a cada 10 minutos. E que queremos ter que regular o filtro a cada duas semanas. Se cada uma for criada naquele ritimo certinho, então 2016 pérolas seriam criadas a cada duas semanas.
+Então poderíamos separar as pérolas do colar em grupos de 2016 pérolas, e fazer com que o último grupo sempre seja usado para se regular o filtro que será cosiderado para o próximo grupo de 2016 pérolas.
+
+Existem muitas maneiras diferentes de se decidir como que o filtro deveria ser regulado, e com base em "quais" informações, e se haveria ritimos desejáveis ou não, e quais seriam.
+Isso na verdade é uma disciplina relacionada ao "controle de sistemas dinâmicos", que envolve áreas da matemática, da engenharia de controle e automação e também da economia (uma vez que envolve pessoas que ficam tomando decisões).
+
+Mas para o nosso caso aqui, a gente está considerando um procedimento bem simples para se fazer a regulagem do filtro. 
+então queremos ter: um ritimo constante; separar as pérolas em grupos; um filtro fixo para cada grupo; e o último grupo (e apenas ele) regulando o filtro para o próximo grupo.
+Isso é simples, que por si só já é uma vantagem, mas tem uma outra também: não depende de uma alta precisão do conhecimento do tempo (que é uma informação necessária e que deve estar em harmonia né..)
+
+Então continuando, os encanadores poderiam simplesmente ver se o último grupo completado demorou de fato mais ou senão menos do que duas semanas.
+Se demorou demais, então o ritimo da criação de pérolas foi menor do que o esperado, então o filtro deve ser regulado de forma a aceitar uma maior quantidade de tons de cinza.
+Por outro lado, se o último grupo completado demorou menos do que duas semanas, então ele foi completado mais rápido do que era esperado, ou seja, o ritimo de criação de pérolas foi maior do que o esperado. Então o filtro deve ser regulado de forma a aceitar uma menor quantidade de tons de cinza, ou seja, a filtrar mais.
+Os encanadores podem sempre ter como objetivo fazer com que o próximo grupo demore exatamente duas semanas (ou o mais próximo disso), eles assumindo que sem regulagem nenhuma, o próximo grupo seria idêntico a este último que eles tiveram.
+
+Mas para isso, é preciso saber as datas e horários em que as pérolas são criadas.
+Basta então colocar a data e horário na bolinha, antes de criar as bolinhas.
+
+E uma curiosidade:
+A data e hora gravadas na primeira pérola do Bitcoin marca 03 de Janeiro de 2009, às 6:15:05 PM - horário GMT. No brasil era um sábado no horário de verão, então um pouco mais cedo, umas 4:15 da tarde.
+
+Mas voltando, a adição desta importância do tom de cinza (se é mais escuro ou mais claro) interfere na analogia das camadas de madrepérola. Pode-se dizer que quanto mais escuro o tom de cinza for, mais espesso seria aquela camada de madrepérola.
+Sobre aquela proteção indireta, ela também é afetada. Se a pŕopria camada foi mais espessa, a proteção indireta adicional também é mais espessa.
+
+Então, no final das contas, colares diferentes podem ter tamanhos diferentes (quantidades diferentes de pérolas), e também ter as pérolas em si em tons diferentes (ou espessuras diferentes das camadas).
+Então pra se saber qual colar tem a primeira pérola como a mais bem protegida, seria necessário considerar tanto a quantidade de pérolas no colar, quanto a espeçura de cada uma.
+Mas no geral, o maior colar é aquele que tem a primeira como mais bem protegida dentre todos os colares.
 
 
 ---------------------------------------------------------
 
+-> TODO aleatório: nem todo encanador é um cultivador de pérolas (no sentido de tentar criar pérolas)
 
+---------------------------------------------------------
 
 TODO: parei aqui
 
 
--> fazer/escolher/aceitar próximo cano/bolinha (r: pow específico) [compl. 2]
-
--> ritmo para novos canos (sustentabilidade memória) [compl. 2]
-  -> (resp: pow específico [compl. 2]) 
-
-  -> relacionado: TEMPO (como base boa pra fazer previsões que envolve 
-     crescimento sustentável)
-
-
-até agora, o que eu tenho:
-
-
-não precisa do general, mas tipo.. é bom chegar em certos checkpoints..
-
-=> assumindo que as mudanças na estruturas são permitidas apenas em situações especiais,
-   (sendo atômicas) - se bem que tendo um cano por bloco meio que já implica essa ideia..
-=> assumindo que a ordem dos canos significaria que o problema estaria resolvido,
-   essa ordem tem que aparecer de alguma forma,
-=> começa botando a ordem explícita nos canos...
-   mas daí mostrar que quem faz a ordem são os encanadores e não encomendadores
--> ter ordem (explícita) separada da estrutura dos canos, 
-   no qual cada cano estará enraizado numa unidade desta estrutura separada..
-   (e o cano em específico ganha imutabilidade histórica perante aquela pérola em específica)
-   (nah, na verdade.. isso serve pra imutabilidade do grupo de transações só.)
-   só que tem spam de pérola
--> ter competição por PoW marginal (pérola ser cinza), 
-   que é um filtro usado para a escolha SORTEADA do criador da pérola
-   ps. que tem uma dependência no "tempo".
-       Usa o "tempo" (tbm) pra ajudar a resolver essa questão
-       só que daí tem que ter um controle de dificuldade pra ajustar de acordo com o tempo
-       ou vice-versa, sei lá.. (o tempo vem depois e tem relação com o controle de dificuldade)
-       o que vem antes, a busca por se atrelar ao tempo ou o controle da dificuldade?
-   só que aí um general pode tentar adiantar os cálculos para ser o "quinto"
--> ter referência ao antecedente
-   que continua com ordem (que agora é implícita),
-   no qual as pérolas antecedentes ganham imutabilidade histórica,
-   e no qual a competição do PoW marginal é resetada,
--> conclusão: 
-   se as pérolas estão imutáveis, e os canos estão imutáveis perante cada pérola,
-   então a estrutura dos canos também está imutável.
-   o cano é mais imutável quanto mais antigo for a pérola que ele está enraizado
-     o ganho de "força" da imutabilidade sobe exponencialmente com a antiguidade
--> curiosidade:
-   Ou seja, o encadeamento de transações também é uma forma de "enraizar" (conter algum hash). Todo cano posterior enraíza o cano anterior - todo cano anterior estará enraizado no posterior.
-   =: toda pérola posterior enraíza o anterior - toda anterior estará enraizada na posterior.
-   =: toda pérola da rodada enraíza os canos da rodada - todos os canos da rodada estarão enraizados na pérola da rodada.
-
-
-explicar o que é uma pérola
-
-    fotos em caixinhas:
- -> [foto preta A] -> (coloca numa caixinha e tira foto) => 
-    [foto random B] -> (coloca numa caixinha e tira foto) => 
-    [foto random C]
-    passa melhor a noção procedimental
-
-    colar de pérolas:
- -> [pérola preta A] -> (esmaga [grão preto A] e concha) => 
-    [pérola random B] -> (esmaga [grão random B] e concha) =>
-    [pérola random C]
-    passa melhor a noção de sequenciamento
-
-    pérola acumulativa:
- -> [pérola preta A] -> (concha para revestir) => 
-    [cobertura random B (em torno da pérola preta A)] -> (concha para revestir) =>
-    [cobertura random C (em torno da cobertura random B (em torno da pérola preta A))]
-    passa melhor a noção de imutabilidade histórica entre as pérolas
 
 
 
 -------------------------------------------------------------------------------
 
-OLD, DELETE:
-
-amber
-
-obs
-
-    - coisa legal: ter um grãozinho, e fazer pérola em volta dele. Daí espremer essa pérola, até ela virar um novo tipo de grãozinho.
-    - tendo um colar, para conferir uma pérola, vc quebra ela e pega o grãozinho dentro dela. Esse grãozinho tinha que ser feito a partir da anterior. Vc espreme a anterior até virar um grãozinho, e confere se é o mesmo grãozinho. Daí vc põe de volta e fecha a pérola, e espreme ela pra ver se ela mesma consegue virar um grãozinho. GG.
-    - err.. na verdade são 2 grãozinhos dentro da pérola kk
-    podemos dizer que um grãozinho é uma cor meio cinzento.
-
-
---------------------------------------------------
-
-
-
 desejos:
--> imutabilidade histórica de tudo [compl. 1]
--> fazer/escolher/aceitar próximo cano/bolinha (r: pow específico) [compl. 2]
--> qual informação confiar (r: nenhuma) [compl. 3]
 
 [compl. 4]
--> ritmo para novos canos (sustentabilidade memória) [compl. 2]
-  -> (resp: pow específico [compl. 2]) 
-  -> relacionado: TEMPO (como base boa pra fazer previsões que envolve 
-     crescimento sustentável)
 -> uma pessoa fazer uma enxente de canos (comportamento indesejável) [compl. 4]
   -> (resp: fee) [compl. 4]
 -> pq isso seria dinheiro? [compl. 4]
@@ -746,11 +846,6 @@ temos:
 ----------------------
 
 
-existe uma harmonia pré-estabelecidada: o tempo, a data de hoje.
-é uma harmonia estável/fixa, que pode ser usada pra guiar o filtro.
-na verdade, o tempo é usado para se guiar a DIFICULDADE.
-Isso faz parte do mecanismo apenas..
-
 porém, o tempo também serve para outro mecanismo: 
 prever o peso em memória/HD, e ter um crescimento sustentável.
 
@@ -763,3 +858,8 @@ um simples afunilamento/filtragem quer dizer que os miners terão um CUSTO.
 este custo é relativamente neutro - não discrimina - valoriza o sorteio:
 apenas valoriza o maior montante de "trabalho que foi feito",
 que é apenas gasto de processamento.
+
+
+
+
+
