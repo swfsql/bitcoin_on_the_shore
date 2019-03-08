@@ -1,5 +1,5 @@
-Título: Bitcoin para crianças de 40 anos
-Title: Bitcoin for 40yo children
+Título: Bitcoin à beira-mar
+Title: Bitcoin on the Shore
 
 
 --------
@@ -805,11 +805,86 @@ Mas no geral, o maior colar é aquele que tem a primeira como mais bem protegida
 ---------------------------------------------------------
 
 -> TODO aleatório: nem todo encanador é um cultivador de pérolas (no sentido de tentar criar pérolas)
+-> criação / cultivo de pérola - fazenda marítima / cultivação marítima - fazendeiro marítimo / maricultor
+-> TODO: tem que prestar atenção quando for falar "encanador" ou "maricultor"
 
 ---------------------------------------------------------
 
-TODO: parei aqui
+Agora é um pouco mais abstrato de novo.. em formato de "historínha"
+Vamos ver como quantidade de "coisas" estão relacionadas a estes canos.
 
+Isso tudo aqui, incluindo esta base verde aqui, só existe na imaginação do verde.
+Vamos fingir por um momento que você é esta pessoa aqui, o verde (ou a verde).
+Você também pode, em sua imaginação, fingir que um tipo de líquido flúi pela base.
+Pode ser algum líquido que você preferir imaginar..
+Pode fingir que a base tem um tamanho infinito, e que este líquido flúi de baixo pra cima, sem nunca parar e sem nunca acabar.
+O líquido também flúi na direção das extremidades toda vez que encontra alguma extensão de cano.
+
+Porém este líquido não consegue nunca sair dos canos. Ela não consegue ser derramado pelas pontas.
+No máximo ele fica até ali, parado. Se o cano for extendido, o líquido chega até a nova extremidade, mas de novo, não se derrama.
+Você pode imaginar que os canos são fechados na ponta que fica pra fora, e que esta ponta só é aberta quando um próximo cano chegar extendendo ela, e daí o líquido, igual antes, nunca seria derramado.
+
+O azul, por exemplo, não poderia falar que nada dali é "realmente" dele.
+Tudo que está aqui existe apenas na sua imaginação, então é tudo seu e não é de mais ninguém.
+
+Porém se você está se esforçando pra ficar em harmonia com outros encanadores, e você está fazendo essa estrutura (que existe na sua imaginação) crescer em harmonia com outros encanadores,
+Então o azul pode "fingir" que ele é o "realmente o dono" dos canos com ponta azuis, no sentido de que ele muito provavelmente "consegue" extender aquele cano, ou seja, ele conseguiria imaginar um envelope azul, descrever aquele envelope pra você (e na verdade, tambpem outros encanadores) poder imaginar o mesmo envelope, que agora estaria na sua imaginação, e você com este evelope (na sua imaginação) poderia imaginar um cano que extenderia aquele cano que já estava em sua imaginação.
+Isso, lembrando, se você estivesse se esforçando a ficar em harmonia com outros encanadores.
+
+(claro que, pra ficar em harmonia, do jeito que a gente viu, você só iria realmente extender o cano caso aquele envelope azul estivesse atrelado a alguma pérola que você fosse incorporar - mas aqui é bom lembrar que a pérola e o colar também existem na sua imaginação)
+
+Então, no final das contas, as pessoas fingem ser "donas" dos canos das pontas, apesar destes canos só existirem na imaginação de outras pessoas.
+Isso acontece graças à maneira como os canos são extendidos e encaixados entre eles, e graças à possibilidade das pessoas poderem ficar em harmonia (sem precisar de alguém que mande em todo mundo), e é claro, graças à decisão (de cada instante) dos encanadores de, por ventura, realmente quererem ficar em harmonia entre eles.
+
+De uma certa forma, forçando um pouco, é como se fosse um jogo que os encanadores e as pessoas jogam entre eles, no qual joga quem quer, e que os jogadores (do mundo inteiro) podem entrar e sair do jogo a hora que quiserem, e que o jogo (em si) talvez não vai parar nunca, e talvez não vai acabar nunca também.
+
+Então voltando àquele fluido, fica bem claro que o "objetivo" daquele fluido não é sair pra lugar nenhum. Os "donos" dos canos, ou mesmo os encanadores, não vão nunca tocar no flúido (na verdade, nem nos canos, em nada).
+O objetivo de existir este flúido é exatamente representar quantidades.
+Nesta situação, pelo menos em relação à imaginação do verde, o vermelho se considera dono de uma certa quantidade de flúido, o que está preso neste cano aqui nesta extremidade.
+Já o azul, se considera dono do que está preso nestas duas extremidades. Ou seja, o dobro da quantidade do vermelho.
+
+Então a partir daí as pessoas começam a tratar o líquido, essas quantidades, como se fossem um produto que pode ser transferido, como se fosse dinheiro.
+
+Se você observar com calma, vai perceber que toda vez que um cano é inserido no sistema, alguém "perdeu" uma certa quantidade de líquido, e outra pessoa ganhou a mesma quantidade.
+O caso de excessão é para os canos que vão direto à base. Neste caso, ninguém perdeu quantidade alguma - mas alguém continua ganhando uma certa quantidade.
+Ou seja, é aí que o dinheiro é criado. 
+
+---
+
+Então agora vamos ver dois detalhes que não foram vistos até agora.
+
+1. Não apenas um, mas vários envelopes podem estar associados a uma única pérola.
+
+Podemos ver este cenário.
+A primeira pérola foi criada pelo laranja, e apenas um envelope está atrelado a esta pérola.
+É um cano de base, criado pelo laranja, e ele mesmo passa a ser dono de uma certa quantidade.
+
+A segunda pérola foi criada pelo roxo, e dois envelopes estão atrelados a esta pérola.
+Tem um de base, criado pelo roxo, e ele mesmo passa a ser dono de uma certa quantidade;
+E mais um outro criado pelo laranja, e daí uma certa quantidade deixa de ser do laranja e passa a ser do marrom.
+
+A terceira pérola foi criada pelo verde, e três envelopes estãoa trelados a esta pérola.
+Tem um de base, criado pelo verde, e ele mesmo passa a ser dono de uma certa quantidade;
+E mais um outro criado pelo marrom, e daí uma quantidade deixa de ser do marrom e passa a ser do azul;
+E ainda mais um outro, criado pelo roxo, e daí uma quantidade deixa de ser do roxo e passa a ser do azul também;
+
+E a quarta pérola foi criada pelo laranja de novo, e só dois envelopes estão atrelados a esta pérola.
+Tem um de base, criado pelo laranja, e ele memso passa a ser dono de uma certa quantidade;
+E tem um criado pelo verde, e daí uma quantidade deixa de ser do verde e passa a ser do vermelho.
+
+Neste novo tipo de cenário, você pode perceber que cada pérola tem um cano de base.
+Cada pérola cultivada é uma oportunidade para um maricultor passar a ser dono de uma quantidade.
+
+É bom eu mencionar que os envelopes continuam em ordem, só que quandoe stiverem numa mesma bolinha, eles ainda continuam numa ordem fixa, de cima para baixo.
+
+Sobre a foto que vai dentro da pérola dos envelopes atrelados àquela perola,
+coloca-se os envelopes daquela pérola um do lado do outro, e tira-se uma foto que pegue todos eles.
+Uma mudança dentro dos envelopes ou uma mudança na ordem entre eles faria a foto ser diferente, então podemos dizer que tantos os canos quanto a ordem dos envelopes dentro de uma mesma pérola estarão protegidos pela camada de madrepérola.
+
+---
+
+-> várias entradas, várias saídas;
+-> fee
 
 
 
@@ -821,6 +896,7 @@ desejos:
 [compl. 4]
 -> uma pessoa fazer uma enxente de canos (comportamento indesejável) [compl. 4]
   -> (resp: fee) [compl. 4]
+  -> antes: precisa saber que é dinheiro
 -> pq isso seria dinheiro? [compl. 4]
   -> (resp: água flui dentro do cano [compl. 4])
   -> ps. água criada na base.
@@ -830,16 +906,7 @@ curiosidades:
 -> base vai diminuindo de tamanho, com um certo ritmo;
 -> canos podem ter várias entradas e várias saídas
 
-temos:
--> estrutura bolinhas
-  -> única por cano [antes da compl. 1]
-  -> sem pow específico [compl. 2]        
-  -> sem pow acc [compl. 3]
-   -> isso abre espaço pro link entre bolinhas; [compl 3]
-   -> isso abre espaço pro mecanismo de dificuldade [compl 3]
-   -> relacionado: TEMPO  (como guia do mecanismo dificuldade) [compl 3]
-  -> sem markle [compl. 1]
-    -> deixar todos os canos "atrelados àquela ordem" imutáveis
+temos
 
 
 
