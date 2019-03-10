@@ -52,6 +52,7 @@ Credits
     Copyright 2011 One World Productions
     - Spotify: https://open.spotify.com/album/7eO2BqaTmZuqxaGx0bB5br
     - Amazon Music: https://www.amazon.com/Music-Bali-Original-Javanese/dp/B005JKUJ4S
+5. Image cover from the book cover "Kafka on the Shore" (written by Harumi Murakami).
 
 ------------------------------
 
@@ -863,28 +864,120 @@ A segunda pérola foi criada pelo roxo, e dois envelopes estão atrelados a esta
 Tem um de base, criado pelo roxo, e ele mesmo passa a ser dono de uma certa quantidade;
 E mais um outro criado pelo laranja, e daí uma certa quantidade deixa de ser do laranja e passa a ser do marrom.
 
-A terceira pérola foi criada pelo verde, e três envelopes estãoa trelados a esta pérola.
+A terceira pérola foi criada pelo verde, e dois envelopes estãoa trelados a esta pérola.
 Tem um de base, criado pelo verde, e ele mesmo passa a ser dono de uma certa quantidade;
 E mais um outro criado pelo marrom, e daí uma quantidade deixa de ser do marrom e passa a ser do azul;
-E ainda mais um outro, criado pelo roxo, e daí uma quantidade deixa de ser do roxo e passa a ser do azul também;
 
-E a quarta pérola foi criada pelo laranja de novo, e só dois envelopes estão atrelados a esta pérola.
+E a quarta pérola foi criada pelo laranja de novo, e três envelopes estão atrelados a esta pérola.
 Tem um de base, criado pelo laranja, e ele memso passa a ser dono de uma certa quantidade;
 E tem um criado pelo verde, e daí uma quantidade deixa de ser do verde e passa a ser do vermelho.
+E ainda mais um outro, criado pelo roxo, e daí uma quantidade deixa de ser do roxo e passa a ser do azul também;
 
 Neste novo tipo de cenário, você pode perceber que cada pérola tem um cano de base.
 Cada pérola cultivada é uma oportunidade para um maricultor passar a ser dono de uma quantidade.
 
 É bom eu mencionar que os envelopes continuam em ordem, só que quandoe stiverem numa mesma bolinha, eles ainda continuam numa ordem fixa, de cima para baixo.
 
-Sobre a foto que vai dentro da pérola dos envelopes atrelados àquela perola,
+Sobre a foto que vai dentro da pérola dos envelopes atrelados àquela pérola,
 coloca-se os envelopes daquela pérola um do lado do outro, e tira-se uma foto que pegue todos eles.
 Uma mudança dentro dos envelopes ou uma mudança na ordem entre eles faria a foto ser diferente, então podemos dizer que tantos os canos quanto a ordem dos envelopes dentro de uma mesma pérola estarão protegidos pela camada de madrepérola.
 
 ---
 
--> várias entradas, várias saídas;
--> fee
+
+E o segundo detalhe é:
+
+2. Cada cano pode ter várias pontas do lado esquerdo, e várias pontas no lado direito.
+
+Pode ser um pouco esquisito, mas jájá a gente chega lá.
+Antes, vamos mudar o jeito que a gente desenha os canos pra ficar mais fácil de desenhar. 
+Ao invés [desse jeito] (que a gente já está acostumado) vamos desenhar [assim]. Fica parecendo um foguetinho.
+A ponta do lado esquerdo está preparada para "ser encaixada" na ponta direita de um outro cano, igual antes.
+
+Então um cenário que antes seria desenhado [assim],
+agora vai ser desenhado [assim].
+Ficou (é) p-o-d-r-e! (mas enfim)
+
+Vamos ver como ficam os envelopes, olhando mais detalhadamente para os ingredientes deles.
+
+- A)
+
+Estamos olhando para [este] último cano. 
+O azul que criou este cano. Antes, tinha uma ponta pro azul (feito pelo laranja), e daí o azul extendeu, jogando a ponta pro verde.
+até aqui, nada demais.
+
+Agora vamos olhar este outro caso.
+
+- B)
+
+Este é um caso em que um cano tem várias pontas no lado direito.
+O vermelho que criou este cano. Antes, tinha uma ponta pro vermelho (feito pelo verde), e daí o vermelho extendeu, jogando pra três pontas no lado direito: uma de volta pro verde, uma pro azul e a última de volta pra ele mesmo.
+No envelope, isso é representado por várias bordas [aqui].
+
+Veja que os canos podem ter tamanhos diferentes (a espeçura deles). 
+Essa espeçura que vai dizer a quantidade que aquela ponta representa.
+Nos envelopes, isso é representado pelo tamanho da própria borda.
+
+Desta forma, se alguém tentar criar um envelope com uma borda (que será uma ponta do lado direito) maior do que poderia ser para aquele cano, então esse cano pode ser ignorado pelos encanadores. Senão essa pessoa poderia criar dinheiro do nada, a hora que quisesse.
+
+Existe um detalhe que quase não falei: o vermelho está mandando pra ele mesmo uma parte da quantidade.
+Isso é como se fosse um trocado. Uma vez que uma ponta foi extendida (a anterior), ela em si não poderá ser extendida novamente. Então se ele extendeu aquela ponta mas não quer consumir ela inteira, ele terá que criar uma outra ponta pra ele mesmo, e daí essa poderá ser extendida.
+
+Agora vamos para o próximo
+
+- C)
+
+Este é um caso em que um cnao tem várias pontas do lado esquerdo.
+O azul que criou este cano. Antes, tinha três pontas pro azul (feitas pelo verde, pelo laranja, e pelo verde de novo), e daí o azul extendeu às três de uma vez, e então jogando uma ponta para o roxo.
+No envelope, isso é representado por várias informações [fotos, chaves, estampas].
+
+Cada chave é usada para fazer a borda de cada ponta esquerda, e a cada uma também está associado uma estampa.
+Na maioria dos casos, cada estampa é feita pro envelope sem considerar as outras estampas.
+Ou seja, se ele fizer a estampa de cima primeiro, na hora de fazer a segunda, ele retira a primeira estampa pra fazer segunda - faz sobre o envelope sem nenhuma estampa.
+
+Já sobres as fotos, cada uma representa faz referência a um cano anterior.
+No caso das fotos verdes, apesar de ambas ter a mesma cor, as fotos continuam sendo diferentes, pois os canos em si, apesar de terem a mesma ponta direita, são diferentes - estão em lugares diferentes.
+
+
+- D)
+
+Este é o último caso, onde um cano tem várias pontas do lado esquerdo e do lado direito.
+O verde que criou este cano. Antes, tinha três pontas pro verde (feitas por um único cano do roxo - tanto é que as fotos são idênticas), e daí o verde extendeu duas delas de uma vez, jogando pontas pro azul, pro vermelho e pro azul de novo.
+Tudo isso é representado no envelope.
+
+Nos canos você consegue ver que houve uma extensão na ponta de cima, e uma outra na ponta de baixo.
+Então no envelope tem as fotos - (e a foto em si vai indicar qual cano, que é o memso), e em baixo da foto a gente coloca um quadradinho pra indicar qual ponta daquele cano - a primeira e a terceira.
+
+(Então agora que os canos podem ter várias pontas)
+na verdade cada ponta pode ser extendida separadamente,
+mesmo que sejam de um mesmo cano que já teve outras pontas extendidas.
+
+Então neste caso, o verde ainda pode fazer um outro cano com aquela mesma foto, só que com dois quadradinhos, indicando a segunda ponta, pois ela ainda nunca foi extendida.
+
+Curiosidade:
+Neste caso aqui o "verde" expandiu pontas que eram "verdes".
+Mas se o "verde" conseguir extender pontas de outras cores, como uma ponta vermelha - e claro, com os ingredientes necessários todos certinhos - a gente pode desconfiar que a pessoa por trás do verde e do vermelho na verdade é a mesma pessoa, só que ela resolveu criar duas chaves diferentes e usuar as duas.
+Por isso que quem está fingindo ser várias pessoas tem que tomar cuidado (com várias coisas, mas umas delas:) na hora de extender as pontas dos canos, senão ela pode deixar vazar algumas informações sobre o comportamento dela mesma. 
+
+---
+
+TODO: exemplo grande. No geral é normal, só tem três detalhes interessantes:
+pontos principais:
+- (2) verde mandou 2x pra mesma cor.
+- (4) roxo mandou troco pra si mesmo (como já foi visto anteriormente).
+- (5) azul extender de vários canos diferentes;
+
+---
+
+TODO: 
+mostrar um exemplo de fee. Não precisa ser muito detalhado não.
+daí mostrar que pode ir pro coinbase daquela pérola.
+relacionar com uma complicação sobre enxente de encomendas por alguém qualquer.
+
+TODO:
+falar da recompensa da coinbase (que tbm vai diminuindo).
+relacionar com uma complicação sobre incentivos - se bem que isso meio que já poderia ser entendido.
+Daí chegar à conclusão de que tem uma quantidade total limitada, finita.
 
 
 
@@ -902,16 +995,15 @@ desejos:
   -> ps. água criada na base.
   -> ps. isso tem que ser depois de "vários canos por ordem"
 
-curiosidades:
--> base vai diminuindo de tamanho, com um certo ritmo;
--> canos podem ter várias entradas e várias saídas
-
-temos
-
-
 
 ----------------------
 
+TODO:
+considerar falar mais sobre o tempo.
+Previsão de avanços..
+Como o númeor do bloco é uma forma de se considerar o tempo em si.
+
+----------------------
 
 porém, o tempo também serve para outro mecanismo: 
 prever o peso em memória/HD, e ter um crescimento sustentável.
