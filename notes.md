@@ -848,11 +848,14 @@ Então a partir daí as pessoas começam a tratar o líquido, essas quantidades,
 
 Se você observar com calma, vai perceber que toda vez que um cano é inserido no sistema, alguém "perdeu" uma certa quantidade de líquido, e outra pessoa ganhou a mesma quantidade.
 O caso de excessão é para os canos que vão direto à base. Neste caso, ninguém perdeu quantidade alguma - mas alguém continua ganhando uma certa quantidade.
-Ou seja, é aí que o dinheiro é criado. 
+Ou seja, é aí que o flúido é criado. 
+
+E isso está relacionado com a quarta complicação, do "pq um maricultor participaria do sistema",
+pois um maricultor que conseguir cultivar uma pérola acaba recebendo este flúido/dinheiro (que foi criado do nada)
 
 ---
 
-Então agora vamos ver dois detalhes que não foram vistos até agora.
+Então agora vamos ver quatro curiosidades que não foram vistas até agora.
 
 1. Não apenas um, mas vários envelopes podem estar associados a uma única pérola.
 
@@ -885,7 +888,7 @@ Uma mudança dentro dos envelopes ou uma mudança na ordem entre eles faria a fo
 ---
 
 
-E o segundo detalhe é:
+E a segunda curiosidade é:
 
 2. Cada cano pode ter várias pontas do lado esquerdo, e várias pontas no lado direito.
 
@@ -918,7 +921,7 @@ Veja que os canos podem ter tamanhos diferentes (a espeçura deles).
 Essa espeçura que vai dizer a quantidade que aquela ponta representa.
 Nos envelopes, isso é representado pelo tamanho da própria borda.
 
-Desta forma, se alguém tentar criar um envelope com uma borda (que será uma ponta do lado direito) maior do que poderia ser para aquele cano, então esse cano pode ser ignorado pelos encanadores. Senão essa pessoa poderia criar dinheiro do nada, a hora que quisesse.
+Desta forma, se alguém tentar criar um envelope com uma borda (que será uma ponta do lado direito) maior do que poderia ser para aquele cano, então esse cano pode ser ignorado pelos encanadores. Senão essa pessoa poderia criar quantidades do flúido do nada, a hora que quisesse.
 
 Existe um detalhe que quase não falei: o vermelho está mandando pra ele mesmo uma parte da quantidade.
 Isso é como se fosse um trocado. Uma vez que uma ponta foi extendida (a anterior), ela em si não poderá ser extendida novamente. Então se ele extendeu aquela ponta mas não quer consumir ela inteira, ele terá que criar uma outra ponta pra ele mesmo, e daí essa poderá ser extendida.
@@ -969,56 +972,75 @@ pontos principais:
 
 ---
 
-TODO: 
-mostrar um exemplo de fee. Não precisa ser muito detalhado não.
-daí mostrar que pode ir pro coinbase daquela pérola.
-relacionar com uma complicação sobre enxente de encomendas por alguém qualquer.
 
-TODO:
-falar da recompensa da coinbase (que tbm vai diminuindo).
-relacionar com uma complicação sobre incentivos - se bem que isso meio que já poderia ser entendido.
-Daí chegar à conclusão de que tem uma quantidade total limitada, finita.
+E a terceira curiosidade é:
+
+3. O que sobrar de uma ponta pode cair no cano de base (atrelado à mesma pérola)
+
+A gente já viu que cada cano (cada ponta do cano, na verdade) só pode ser extendido uma vez.
+Neste exemplo aqui, na segunda pérola, o verde extendeu um cano enviando uma pequena parte para o vermelho
+e uma pequena parte para o azul - de acordo com o envelope.
+
+Mas neste caso [aqui] ficou sobrando uma parte do cano que não foi mandado pra ninguém.
+Nessa situação é como se houvesse ainda uma outra saída [aqui] que não vai pra ninguém.
+
+Este cano está atrelado à pérola n. 2. O encanador que criou essa pérola pode pegar essas "pontas soltas"
+e [aqui] re-direcionar elas para o cano de base da própria pérola - tudo isso antes de se realmente criar a pérola em si.
+Ou seja, na hora de criar a pérola, o encanador pode pegar "as sobras" dos canos que estão atrelados àquela pérola e re-direcionar pro cano de base daquela pérola, ou seja, pra ele mesmo.
+
+É bom lembrar que quando a pessoa criou o envelope, ela não sabe em qual pérola aquele envelope vai ser atrelado, não sabe quem será o criador daquela pérola, nem quando esta pérola específica será criada - se for.
+Pelo envelope só dá pra saber a quantia que vai ficar "de sobra", mas não quem nem quando vai receber essa quantia.
+
+---
+
+Isso ajuda a tratar de duas partes da quarta complicação, 1) daquela se uma pessoa ficar fazendo uma enxente de encomendas, e acabar atrapalhando outros encomendadores.
+Os maricultores podem ter um filtro pra saber qual envelope vai entrar pra pérola que ele está cultivando - pois na verdade tem um limite máximo de envelopes que podem ser atrelados à mesma pérola.
+
+Esse limite faz parte daquela coisa de "resistência do sistema". Sem algum tipo de limite ou filtro,
+um maricultor poderia fazer uma pérola com tantos envelopes atrelados à ela que todos os outros encanadores poderão não dar conta, e teriam que desistir de ser encanadores, e daí só sobraria aquele único encanador... o que quebraria a descentralização do sistema
+
+Mas voltando pro cara que faz uma enxente de encomendas - lembrando que ele pode se passar por muitas pessoas - os maricultores podem então aplicar um filtro na hora de cultivar uma pérola.
+Ele pode colocar aqueles que mais "oferecem" "sobra" para o próprio maricultor. Daí a "sobra" na prática passa a ser uma "taxa" que os encomendadores acabam tendo que "pagar" pra poder ter as suas encomendas atreladas a alguma pérola.
+O valor desta "taxa" a ser paga varia conforme a quantidade de envelopes que estão esperando pra serem atrelados à pérolas, as sobras que eles estão oferecendo; o "quão rápido" os encomendadores querem que as suas encomendas sejam atreladas à alguma pérola, o que varia de pessoa pra pessoa, de situação pra situação, etc.
+
+Daí voltando pro cara que quer fazer uma enxente para atrapalhar os outros encomendadores, uma pessoa que quiser fazer uma enxente de encomendas ou: 
+- terá que pagar várias taxas para isso (se ele acabar pagando as taxas pra cada encomenda), ou:
+- será simplesmente ignorado pelos maricultores, se as "sobras" que ele oferecer forem baixas demais.
+
+Isso pelo menos dificulta o problema da enxente de envelope, pois agora há um custo aplicado para quem quer que seu envelope seja atrelado a alguma pérola.
+Claro que, nada impede que um maricultor, por boa vontade, atrele envelopes à pérola (que está cultivando) que não dão sobras nenhuma. Mas no geral, eles vão ignorar os que não deixam sobras ou que deixam sobras muito pequenas (dependendo do conjunto de envelopes - que estão "competindo" para serem atrelados a alguma pérola).
+
+-- 
+
+Uma outra parte da quarta complicação, sobre os incentivos que o maricultor teria para fazer "o que faz",
+já vimos que ele tem incentivos graças ao pagamento que ele recebe, dos canos de base, do flúido criado do nada.
+
+Além deste pagamento, ele também pode receber as sobras das encomendas que estiverem atrelados àquela pérola que ele cultivar. Ou seja, ele acaba recebendo um pagamento maior do que antes!
+
+---
 
 
+E a quarta curiosidade:
+
+4. De tempo em tempo, os canos de base vão "afinando"
+
+Isso é bem simples. Não é [assim], um atrás do outro, mas de tempo em tempo, os canos de base vão afinando.
+A quantidade do flúido que é criado do nada a cada pérola vai diminuindo, até não ser mais quantidade nenhuma.
+Ou seja, vai chegar uma hora em que a partir daí, os canos de base não vão receber flúido novo.
+Não vai mais criar flúido. 
+Daí os maricultores só vão receber as sobras que estiverem nas encomendas atreladas àquela pérola.
+
+A quantidade de flúido que é criado, de tempo em tempo, vai diminuindo, tendendo a zero.
+Cada nova quantidade criada, em comparação com o acúmulo de todas as quantidades já criadas anteriormente (desde o início), ela sempre diminui, também tendendo a zero.
+
+Então se a gente chamar "cada quantidade criada" de flúido de "inflação" de flúido, 
+e se a gente chamar de "a taxa de inflação do flúido" a "proporção de cada quantidade de flúido criada sobre o acúmulo das quantidades de flúido criadas anteriormente (desde o início)",
+
+podemos dizer que a "taxa de inflação" sempre tende a zero
+(até realmente chegar a zero - quando não se criar mais flúido - e ficar em zero pra sempre).
+
+Isso trás propriedades econômicas interessantes e importantes (segundo aqueles autores que eu mencionei no meio do video), e mais uma vez, recomendo que você procure e pesquise mais sobre artigos e livros que eles escreveram.
 
 
 -------------------------------------------------------------------------------
-
-desejos:
-
-[compl. 4]
--> uma pessoa fazer uma enxente de canos (comportamento indesejável) [compl. 4]
-  -> (resp: fee) [compl. 4]
-  -> antes: precisa saber que é dinheiro
--> pq isso seria dinheiro? [compl. 4]
-  -> (resp: água flui dentro do cano [compl. 4])
-  -> ps. água criada na base.
-  -> ps. isso tem que ser depois de "vários canos por ordem"
-
-
-----------------------
-
-TODO:
-considerar falar mais sobre o tempo.
-Previsão de avanços..
-Como o númeor do bloco é uma forma de se considerar o tempo em si.
-
-----------------------
-
-porém, o tempo também serve para outro mecanismo: 
-prever o peso em memória/HD, e ter um crescimento sustentável.
-
-tempo usado para:
--> guiar dificuldade
--> crescimento sustentável
-
-existe um trabalho que precisa ser feito, que tem a sua DIFICULDADE/CUSTO.
-um simples afunilamento/filtragem quer dizer que os miners terão um CUSTO.
-este custo é relativamente neutro - não discrimina - valoriza o sorteio:
-apenas valoriza o maior montante de "trabalho que foi feito",
-que é apenas gasto de processamento.
-
-
-
-
 
