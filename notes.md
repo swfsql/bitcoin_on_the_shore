@@ -54,8 +54,8 @@ Sumário
     2. Ideia do verde
     3. Referência prévia I
         1. Mudança no desenho
-    4. Referência prévia II
-    5. Surgimento do PoW acumulativo
+        2. Referência prévia II
+    4. Surgimento do PoW acumulativo
         1. Maricultores e pérolas
 10. Imutabilidade (atrelar ao envelope)
     1. Disputa entre colares
@@ -76,31 +76,73 @@ Sumário
 
 --------
 notes de música
-- música boa: 
-    - 15 - ldr agun-agun (7:00)
-        - meio que "insetos na noite", sei la
-        - lá pros 1:20 fica bem lenta
-        - mas a partir dos 6:00 começa a ficar rápida
-        - pode ser a primeira tbm, e ser reutilizada várias vezes
-    - 14 - ldr sigra (6:00)
-        - parece ser boazinha
-        - em 1:00 fica lenta, daí fica tipo a agun-agun
-        - em 4:50 começa a acelerar
-- música razoável: 
-    - 12 - ldr manggala (9:00)
-        - ritmo ok, e tem partes bem tranquilas
-    - 10 - lcr kebogiro (6:33)
-        - ritmo ok
-- talvez considerar:
-    - 05 - gd dengglung
-    - 01 - ldr-balabak
-        - começa doido, mas depois de 01:18 fica mais de boa. Pode ser a primeira
-        .. mas lá pros 5:00 começa a acelerar, ou dar umas aceleradas..
-- provavelmente não
-    - 08 - ldr lagu
-        - pega um ritimo +- bom, 
-          mas o começo e no geral é irritante
 
+- música boa: 
+
+    - 15 - ldr agun-agun (7:00)
+        - textura: insetos numa noite calma 
+            - usar sempre que tiver espaço pra algo "de boa"
+            - preferência na mudança de subcapítulo, etc
+        - 0:00 agitada - 1:20 tranquila - 6:00 agitada - 7:00
+
+    - 14 - ldr sigra (6:00)
+        - textura: +- igual a 15, só que menos "mágica"
+            - usar igual a 15, mas com menor frequência.
+        - 0:00 agitada - 1:00 tranquila - 4:50 agitada - 6:00
+
+    ---
+
+    - 01 - ldr-balabak (7:00)
+        - textura: 
+            -#00
+            - pouco malvado; 
+            - pouco pensativo; 
+            - insights borbulham de vez em quando (1:42, 3:09, 3:55, 4:00, );
+        - 0:00 normal - 1:18 de boa - 4:52 acelera - 7:00
+
+    - TODO p/ #1, #2, #3, #4, #5
+
+    - 02 - monggang (4:00)
+        - textura: pensativa, vassoura
+            -#6
+            -#12
+        - usar nas parte de imaginação
+    - 05 - gd dengglung (8:30)
+        - textura: malvadão (complicações, problemas)
+        - usar:
+            -#7
+        - relativamente tranquila
+        - 0:00 tranquila - 5:20 agitada - 6:00~6:40~7:10~7:30 partes MUITO agitadas.. - 7:40 acalma - 8:30 
+
+    - 10 - lcr kebogiro (6:30)
+        - textura: dois layers lado-a-lado, colaborativo, responsividade
+        - usar:
+            -#8 (um miner fica tendo feedback do outro)
+        - ritmo ok
+        - 0:00 calma - 5:50 agita - 6:15 acalma - 6:30
+
+    - 09 gd tukung
+        - textura: competição à dois  / "trabalho repetitivo"
+            -#9
+            -#10.1
+        - 0:00 calma - 6:20 fica bem agitada
+        - música de competição (entre maricultores, entre colares)
+        - música de trabalho
+
+    - 16 - ldr bimo kurda (8:00)
+        - textura: insistência / "trabalho repetitivo"
+        - usar:
+            -#10.2
+        - 0:00 de boa - 7:10 agita um pouco - 8:00
+        - talvez usar em contexto de mineração..
+        - ou esforço que uma pessoa faz (sem ser necessariamente competição)
+
+    - TODO p/ #11, #13
+
+    - 11 - lcr manya (7:00)
+        - textura: falutinha doidona
+            -#14
+        - usar na finalização / sem comentário / repassagem de tudo
 
 ------------------------------
 
