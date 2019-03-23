@@ -1,69 +1,72 @@
 Título: Bitcoin à beira-mar
-Title: Bitcoin on the Shore
 
 ------------------------------
 
 Sumário
-0. Intro
-1. Intro Blockchain - intro transação
-2. Intro cano
-    1. Borda do cano
-3. Intro chaves - priv lock
-    1. Pub lock
-    2. Cenário inicial
-        1. Mensagem confidencial
-        2. Mensagem autêntica
-    3. Câmera e foto
-        1. Assinatura digital
-        2. De novo
-4. Envelopes
-    1. Mapa das placas I
-    2. Criando envelope
-        1. Primeiro ingrediente
-        2. Segundo ingrediente
-        3. Terceiro ingrediente
-        4. Assinatura digital
-    3. Criando cano
-        1. chave -> Verificar assinatura
-        2. chave -> Borda esquerda
-        3. Borda direita
-        4. Posição do cano anterior
-    4. Mapa das placas II
-5. Austríacos
-6. Imaginação I
-7. Busca de harmonia
-    1. Complicação I: Imutabilidade
-    2. Complicação II: Ordem
-        1. Apresentação do problema
-        2. Introdução da ordem
-        3. Ordem externa ao cano
-        4. Igualdade de cano p/ envelope
-        5. Cada encanador tem a sua "ordem"
-    3. Complicação III: Em qual info. confiar?
-        1. Apresentação do problema
-        2. Relato do problema
-    4. Complicação IV: Controle e limites
-        1. Muitos canos p/ os encanadores
-            1. Controle e Limite
-8. PoW específico
-    1. Apresentação do filtro
-    2. Como satisfazer o filtro
-    3. Motivação do filtro
-9. Roubar na competição
-    1. Colisão e irritação do verde
-    2. Ideia do verde
-    3. Referência prévia I
-        1. Mudança no desenho
-        2. Referência prévia II
-    4. Surgimento do PoW acumulativo
-        1. Maricultores e pérolas
-10. Imutabilidade (atrelar ao envelope)
-    1. Disputa entre colares
-    2. Tentar mudar info. antiga
-11. Regulação do filtro
-    1. Introdução do tempo
-    2. Exemplo simples e prático (Bitcoin)
-12. Imaginação II
+
+00:00:00 - (Intro)
+00:02:48 - 1 - Blockchain
+00:07:25 - 2 - Canos e encanadores
+00:09:09 - 2.1 - Borda do cano
+00:12:44 - 3 - Chave, chaveiros e cadeado
+00:15:38 - 3.1 - Trancando com a outra chave
+00:16:45 - 3.2 - Três chaveiros, cenário inicial
+00:19:05 - 3.2.1 - Mensagem autêntica
+00:24:40 - 3.2.2 - Mensagem confidencial
+00:31:32 - 3.3 - Câmera e fotos
+00:36:00 - 3.3.1 - Mensagem autêntica e íntegra
+00:45:10 - 3.3.2 - Estampa
+00:47:23 - (Conselho)
+00:48:46 - 4 - Envelope
+00:54:58 - 4.1 - Mapas e placas I
+00:58:40 - 4.2 - Três ingredientes de um envelope
+00:59:04 - 4.2.1 - Ingrediente I
+01:02:12 - 4.2.2 - Ingrediente II
+01:04:54 - 4.2.3 - Ingrediente III
+01:05:45 - 4.2.4 - Estampa para finalização
+01:07:09 - 4.3 - Criando um cano
+01:07:09 - 4.3.1 - Chave para verificar estampa
+01:08:37 - 4.3.2 - Chave para fazer a borda esquerda
+01:10:12 - 4.3.3 - Fazendo a borda direita
+01:10:19 - 4.3.4 - Localização para encaixe
+01:11:05 - 4.4 - Mapas e placas II
+01:26:15 - 5 - Voluntarismo, governo, poder e dinheiro
+01:51:51 - 6 - Imaginação I
+02:07:27 - 7 - Busca da harmonia
+02:11:35 - 7.1 - Complicação I: Imutabilidade
+02:13:31 - 7.2.(1) - Complicação II: Ordem
+02:18:30 - 7.2.2 - Aparição da ordem
+02:22:19 - 7.2.3 - Separação da ordem
+02:23:14 - 7.2.4 - Representação por envelopes
+02:27:10 - 7.2.5 - Bolinhas também são imaginárias
+02:28:30 - 7.3 - Complicação III: Confiança
+02:34:37 - 7.4 - Complicação IV: Controles e limites
+02:43:33 - 8 - Enxente de bolinha
+02:45:49 - 8.1 - Um filtro
+02:46:30 - 8.2 - Passando pelo filtro
+02:47:47 - 8.3 - Motivação do filtro
+02:50:06 - 9 - Competição com as bolinhas
+02:54:21 - 9.1 - Colisão e irritação
+02:56:16 - 9.2 - Ideia do verde
+02:58:23 - 9.3 - Nova regra
+03:01:46 - 9.3.1 - Setas de fragilidade
+03:03:54 - 9.3.2 - Observação para a primeira
+03:04:45 - 9.4 - Possibilidade de acumulação
+03:12:49 - 9.4.1 - Pérolas e maricultores
+03:19:50 - 10 - Da imutabilidade histórica (envelopes)
+03:28:00 - 10.1 - Disputa entre colares I
+03:50:07 - 10.2 - Disputa entre colares II
+04:07:00 - 11.(1) - Regulagem do filtro
+04:13:28 - 11.2 - Exemplo semelhante ao do Bitcoin
+04:22:46 - 12 - Imaginação II
+04:30:58 - 13 - Detalhes e curiosidades
+04:31:29 - 13.1 - Detalhe I: pérola frágil à múltiplos envelopes
+04:37:11 - 13.2 - Detalhe II: Várias pontas em cada lado do cano
+04:51:06 - 13.2.1 - Exemplo maior
+04:59:13 - 13.3 - Sobra dos canos
+05:05:42 - 13.4 - Espeçura que sai da base (e um pouco sobre inflação)
+05:17:26 - 14 - (Finalização)
+
 13. Curiosidades
     1. Vários envelopes a cada pérola
     2. Várias pontas a cada lado de um cano
@@ -146,26 +149,36 @@ notes de música
 
 ------------------------------
 
-Video resources on Bitcoin's history, origins and influences
+Links sobre a história do bitcoin, a sua origem e suas inflências
 1. Origens ideológicas do Bitcoin - https://www.youtube.com/watch?v=dygjQg7sFYE
-    Presented by Avelino Morganti
-    - Oficial website: https://cypherpunks.com.br/ 
+    por Avelino Morganti
+    - Site oficial: https://cypherpunks.com.br/ 
     - Github: https://github.com/cypherpunksbr/cypherpunks.com.br
 2. As origens do dinheiro eletrônico, de Menger a Nakamoto - https://www.youtube.com/watch?v=3KiGzwfgg0A
-    Presented by Fernando Ulrich
+    por Fernando Ulrich
 3. History of the Blockchain - https://www.youtube.com/watch?v=YpSeOU1VVj4
-    Presented by Nick Szabo
+    by Nick Szabo (em inglês)
+
+Links sobre a noção e teoria do dinheiro:
+1. O Que o Governo Fez Com o Nosso Dinheiro?
+    - Livro: http://rothbardbrasil.com/o-que-o-governo-fez-com-o-nosso-dinheiro-2/
+    - Leitura em audio
+        - por Erick Otoni: https://www.youtube.com/watch?v=LM4ghswKfg0
+        - por Matias: https://www.youtube.com/watch?v=eqqNHudMlDE (parcial)
 
 ------------------------------
 
-Credits
-1. Fly in and amber analogy by Nick Szabo
-2. Cryptography insights and overall knowledge from https://www.youtube.com/user/ArtOfTheProblem
-3. Drawing software and third-party symbols from http://draw.io/
-4. Songs from "Music From Bali: Original Javanese Music" album, from "The Gamelan Orchestra".
+Créditos
+1. Uma mosca presa no âmbar, analogia por Nick Szabo.
+2. Canal ArtOfTheProblem e 3b1b por conteúdo de matemática e computação inspiradores.
+3. Ferramenta de desenho e símbolos de terceiros do http://draw.io/ 
+4. Imagem de capa do livro "Kafka à beira-mar", escrito por Harumi Murakami.
+
+
+4. Músicas do álbum "Music From Bali: Original Javanese Music", autorado por "The Gamelan Orchestra".
     Copyright 2011 One World Productions
     - Spotify: https://open.spotify.com/album/7eO2BqaTmZuqxaGx0bB5br
     - Amazon Music: https://www.amazon.com/Music-Bali-Original-Javanese/dp/B005JKUJ4S
-5. Image cover from the book cover "Kafka on the Shore" (written by Harumi Murakami).
 
 ------------------------------
+
